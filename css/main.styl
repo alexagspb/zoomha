@@ -1,0 +1,1181 @@
+$black = #282828
+$white = #f4fbff
+$yellow = #ffcb08
+$orange = #ff7008
+$light-grey = #F3F6F7
+$grey = #E5E5E5
+$dark-grey = #919191
+$blue = #0398D8
+$light-blue = #F4FBFF
+
+body {
+  padding: 0
+  margin: 0
+  font-family: 'Museo Sans Cyrl';
+  color $black
+}
+
+ul {
+  margin: 0
+  padding: 0
+  list-style-type: none
+}
+
+.zoomha {
+
+  &-btn {
+    background: linear-gradient(270deg, rgba(239, 190, 5, 0.5) 0%, rgba(255, 255, 255, 0) 100%), #FF7008;
+    border-radius: 20px;
+    padding: 10px 20px
+    color $white
+    width 100px
+    text-align: center
+    cursor: pointer
+  }
+
+  &-wrapper {
+    width: 1280px
+    margin: 0 auto
+    border 1px solid #ccc
+  }
+
+  &-logo {
+    position: relative;
+
+    &__link {
+      width: 145px;
+      height: 45px;
+      display: block;
+      background: url(../img/logo.png) center center no-repeat;
+
+      &_header {
+        border-radius: 50%;
+
+        &:after {
+          content: '';
+          height: 37px;
+          width: 188px;
+          position: absolute;
+          top: 38px;
+          left: -20px;
+          background: url(../img/shadow.png) center center no-repeat;
+        }
+      }
+    }
+  }
+
+  &-top {
+    height: 30px
+    background: $yellow
+    padding: 0 55px
+    display: flex
+    justify-content space-between
+  }
+
+  &-lang {
+    display: inline-block;
+    vertical-align: top;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 5px;
+    line-height: 16px;
+    padding: 7px 0 0px 30px;
+    border-bottom: 1px dashed $black;
+    background: url(../img/en.png) left center no-repeat;
+    cursor pointer
+
+    &:hover {
+      border-bottom: 1px solid transparent
+    }
+  }
+
+  &-auth {
+    display: flex
+    justify-content space-between
+
+    &__item {
+      display: inline-block;
+      vertical-align: top;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      margin-bottom: 5px;
+      line-height: 16px;
+      padding: 7px 0 0px 0;
+      border-bottom: 1px dashed $black;
+      margin-left: 20px
+      cursor pointer
+
+      &:hover {
+        border-bottom: 1px solid transparent
+      }
+    }
+
+    &__link {
+      text-decoration: none
+      color $black
+    }
+  }
+
+  &-header {
+    display: flex
+    justify-content space-between
+    height: 50px
+    line-height: 50px
+    padding: 0px 55px;
+    background: $black
+  }
+
+  &-menu {
+    display: flex
+    justify-content space-between
+
+    &__item {
+      margin-right: 20px
+    }
+
+    &__link {
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 16px;
+      color $white
+      text-decoration: none
+    }
+  }
+
+  &-info {
+    display: flex
+    justify-content space-between
+
+    &__item {
+      margin-left: 20px
+    }
+
+    &__link {
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 16px;
+      color $white
+      text-decoration: none
+    }
+
+    &__count {
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 14px;
+      padding: 2px 6px;
+      border-radius: 10px;
+      background: $yellow
+      color $black
+    }
+  }
+
+  &-breadcrumbs {
+    display: flex
+    margin-bottom: 10px
+
+    &__item {
+      margin-right: 5px
+    }
+
+    &__link {
+      color $black
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 14px;
+    }
+  }
+
+  &-mainbanner {
+    position: relative
+
+    &:after {
+      content: '';
+      position: absolute;
+      bottom: -100px;
+      left: 270px;
+      width: 285px;
+      height: 295px;
+      background: url(../img/box.png) center center no-repeat;
+    }
+
+    &__title {
+      position: absolute
+      top: 100px
+      left: 100px
+      font-size: 28px;
+      line-height: 34px;
+      color #fff
+    }
+
+    &__subtitle {
+      position: absolute
+      top: 50px
+      left: 100px
+      font-size: 18px;
+      line-height: 34px;
+      color #fff
+    }
+
+    &__item {
+      position: absolute;
+      width: 100px;
+      border: 4px solid $white;
+      border-radius: 100px;
+      text-align: center;
+      padding: 50px 30px 30px;
+      color $white
+
+      &_one {
+        bottom: 50px
+        left: 100px
+
+        &:after {
+          content: '';
+          position: absolute;
+          top: -50px;
+          left: 100px;
+          width: 100px;
+          height: 100px;
+          background: url(../img/arrow1.png) no-repeat;
+        }
+      }
+
+      &_two {
+        bottom: 200px
+        left: 220px
+
+        &:after {
+          content: '';
+          position: absolute;
+          top: 0;
+          left: 150px;
+          width: 100px;
+          height: 100px;
+          background: url(../img/arrow2.png) no-repeat;
+        }
+      }
+
+      &_three {
+        bottom: 200px
+        left: 430px
+
+        &:after {
+          content: '';
+          position: absolute;
+          top: 120px;
+          left: 150px;
+          width: 100px;
+          height: 100px;
+          background: url(../img/arrow3.png) no-repeat;
+        }
+      }
+
+      &_four {
+        bottom: 50px
+        left: 550px
+      }
+    }
+
+    &__num {
+      margin-top: 20px
+    }
+
+    &__img {
+      display: block
+    }
+  }
+
+  &-about {
+    background: $yellow
+    padding: 100px 55px
+    position: relative
+    display: flex;
+    justify-content: space-between;
+    z-index:1
+
+    &:after {
+      content ''
+      position: absolute
+      top: -20px
+      left: 0
+      height: 20px
+      width: 100%
+      background: url(../img/wave_yellow.png) repeat-x;
+    }
+
+    &__item {
+      flex-basis 30%
+      margin: 0 20px
+
+      &_first {
+        text-align: right
+      }
+    }
+
+    &__title {
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 26px;
+      line-height: 31px;
+    }
+
+    &__text {
+      font-size: 14px;
+      line-height 18px
+    }
+  }
+
+  &-shop {
+    margin-top: -50px;
+  }
+
+  &-popular {
+    padding: 50px 55px
+    position: relative
+    z-index:1
+
+    &:after {
+      content ''
+      position: absolute
+      top: -20px
+      left: 0
+      height: 20px
+      width: 100%
+      background: url(../img/wave_white.png) repeat-x;
+    }
+
+    .zoomha-products__item {
+      max-width: 24%;
+    }
+  }
+
+  &-banners {
+    display: flex
+    justify-content space-between
+    margin-bottom: 20px
+  }
+
+  &-leftmenu {
+    flex-basis: 18%;
+    padding-right: 20px;
+    margin-right: 20px;
+    border-right: 1px solid $grey
+
+    &__title {
+      font-size: 18px;
+      line-height: 22px;
+      margin-bottom: 20px
+    }
+
+    &__item {
+      margin-bottom: 5px
+    }
+
+    &__link, &__sublink {
+      display: inline-block
+      color $black
+      border-bottom: 1px dashed $black
+      font-size: 14px;
+      line-height: 17px;
+      text-decoration: none
+      margin-bottom: 5px
+
+      &:hover {
+        border-bottom: 1px solid transparent
+      }
+
+      &_active {
+        border-bottom: 1px solid transparent
+        color $orange
+      }
+    }
+
+    &__sublist {
+      margin-left: 20px
+    }
+  }
+  &-content {
+    display: flex
+    justify-content space-between
+  }
+
+  &-title {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    margin-bottom: 30px
+
+    &_bonuses {
+      font-weight: 600;
+      text-align: center;
+    }
+
+    &_center {
+      text-align: center;
+    }
+  }
+
+  &-subtitle {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 31px;
+    margin-bottom: 10px
+  }
+
+  &-filters {
+    display: flex
+    justify-content space-between
+    align-items: center;
+    box-sizing: border-box;
+    border 1px solid $grey
+    border-radius: 10px;
+    padding: 5px
+    margin-bottom: 20px
+
+    &__list {
+      display: flex;
+      flex-basis: 100%;
+
+    }
+
+    &__item {
+      margin-right: 20px
+
+      &_nobonus {
+        margin-left: 50px
+      }
+    }
+  }
+
+  &-page, &-catalog {
+    padding: 10px 55px 0;
+  }
+
+  &-img {
+    flex-basis: 45%;
+    margin-right: 50px
+
+    &__item {
+      max-width: 100%;
+    }
+  }
+
+  &-price {
+    margin-bottom: 20px
+
+    &__item {
+      display: inline-block
+      vertical-align: middle
+      font-size: 42px;
+      line-height: 50px;
+      margin-right: 20px
+      color $yellow
+    }
+  }
+
+  &-product {
+    flex-basis: 65%;
+
+    &__title {
+      font-size: 26px;
+      line-height: 31px;
+      margin-bottom: 10px
+    }
+
+    &__id {
+      font-size: 12px;
+      line-height: 14px;
+      margin-bottom: 50px
+      color $dark-grey
+    }
+
+    &__subtitle {
+      font-size: 10px;
+      line-height: 12px;
+      margin-bottom: 5px
+      text-transform: uppercase;
+      color $dark-grey
+    }
+
+    &__bonus {
+      display: inline-block
+      vertical-align: middle
+      padding: 5px;
+      background: $black;
+      color: $white;
+      border-radius: 20px;
+    }
+
+    &__format {
+      display: inline-block
+      vertical-align: top
+      margin-right: 20px
+    }
+
+    &__size {
+      display: inline-block
+      vertical-align: top
+      margin-top: -5px
+
+      &-txt {
+        font-size: 14px;
+        line-height: 17px;
+      }
+
+      &-list {
+        display: flex
+        justify-content space-between
+      }
+
+      &-item {
+        font-size: 16px;
+        line-height: 24px;
+        width: 24px;
+        height: 24px;
+        text-align: center;
+        border 1px solid $yellow
+        border-radius 50px
+      }
+    }
+
+    &__button {
+      width: 200px
+      margin: 20px 0
+    }
+  }
+
+
+  &-bonuses {
+
+    &_page {
+      position: relative
+      background: $light-grey
+      padding: 20px 75px 20px;
+      margin: 0 -55px;
+
+      &:after {
+        content ''
+        position: absolute
+        top: -20px
+        left: 0
+        height: 20px
+        width: 100%
+        background: url(../img/wave.png) repeat-x;
+      }
+    }
+
+    &__list {
+      display: flex;
+      justify-content: space-between;
+
+      &_profile {
+        justify-content flex-start
+        flex-wrap: wrap;
+
+        .zoomha-bonuses__item {
+          margin-right: 2%;
+          margin-bottom: 3%;
+          flex-basis: 31%;
+          max-width: 31%;
+        }
+      }
+
+    }
+
+    &__item {
+      position: relative
+      flex-basis 24%
+      max-width: 24%;
+      height: 192px
+      box-sizing: border-box;
+      border-radius: 20px 0px 20px 20px;
+      padding: 20px
+
+
+      &_eagle {
+        background:  url("../img/bonus/bonus2.png") no-repeat right center, linear-gradient(226.58deg, #26BD00 4.63%, rgba(255, 255, 255, 0) 91.01%), #3FDA09;
+      }
+
+      &_wheel {
+        background:  url("../img/bonus/bonus3.png") no-repeat right 0, linear-gradient(226.58deg, #0094C2 24.87%, rgba(255, 255, 255, 0) 91.01%), #00ACF5;
+      }
+
+      &_suit {
+        background:  url("../img/bonus/bonus4.png") no-repeat right center, linear-gradient(226.58deg, #E63C3C 24.87%, rgba(255, 255, 255, 0) 91.01%), #E32929;
+      }
+
+      &_cube {
+        background: url("../img/bonus/bonus1.png") no-repeat right center, linear-gradient(226.58deg, #FF7008 4.63%, rgba(255, 255, 255, 0) 91.01%), #FFCB08;
+      }
+
+      &_match {
+        background:  url("../img/bonus/bonus5.png") no-repeat right center, linear-gradient(226.58deg, #504EE9 4.63%, rgba(255, 255, 255, 0) 91.01%), #7977FA;
+      }
+
+      &_stone {
+        background: url("../img/bonus/bonus6.png") no-repeat right center, linear-gradient(226.58deg, #BD2D00 4.63%, rgba(255, 255, 255, 0) 91.01%), #FF8A00;
+      }
+
+      &_guess {
+        background:  url("../img/bonus/bonus7.png") no-repeat right center, linear-gradient(226.58deg, #ADD802 24.87%, rgba(255, 255, 255, 0) 91.01%), #C4F500;
+      }
+
+      &_combination {
+        background:  url("../img/bonus/bonus8.png") no-repeat right center, linear-gradient(226.58deg, #FFC700 4.63%, rgba(255, 255, 255, 0) 91.01%), #FFD32F;
+      }
+    }
+
+    &__title {
+      font-size: 24px;
+      line-height: 28px;
+      margin-bottom: 10px
+    }
+
+    &__subtitle {
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 14px;
+    }
+
+    &__win {
+      position: absolute
+      bottom: 0
+      left: 0
+      padding: 10px 20px
+      color $white
+      border-radius: 0px 20px;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19px;
+
+      &_cube {
+        background: #E05E00;
+      }
+
+      &_eagle {
+        background: #20A000;
+      }
+
+      &_wheel {
+        background: #0088B3;
+      }
+
+      &_suit {
+        background: #D20000;
+      }
+
+      &_match {
+        background: #504EE9;
+      }
+
+      &_stone {
+        background: #BD2D00;
+      }
+
+      &_guess {
+        background: #88AA00;
+      }
+
+      &_combination {
+        background: #E08700;
+      }
+    }
+
+    &__total {
+      font-family: Raleway;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 23px;
+      margin-bottom: 10px
+
+      &-num {
+        font-weight 700
+        color $orange
+      }
+    }
+
+    &__txt {
+      font-size: 14px;
+      line-height: 17px;
+      margin-bottom: 20px
+    }
+
+    &__link {
+      color $blue
+
+      &:hover {
+        text-decoration: none
+      }
+    }
+  }
+
+  &-products {
+    flex-basis 80%
+    padding-left: 50px
+
+
+    &__list {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+
+      &_similar {
+        .zoomha-products__item {
+          max-width 24%
+        }
+      }
+    }
+
+    &__item {
+      border 1px solid $grey
+      max-width: 32%;
+      box-sizing: border-box;
+      margin-bottom: 2%;
+      position: relative;
+    }
+
+    &__bonus {
+      position: absolute
+      top: 10px
+      right: 10px
+      padding: 5px
+      background: $black
+      color $white
+      border-radius 20px
+    }
+
+    &__img {
+      width: 100%
+    }
+
+    &__txt {
+      padding: 20px
+    }
+
+    &__title {
+      font-size: 16px;
+      line-height: 19px;
+      margin-bottom: 5px
+    }
+
+    &__subtitle {
+      font-family: 'Raleway';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 14px;
+      margin-bottom: 5px
+    }
+
+    &__info {
+      font-size: 12px;
+      line-height: 14px;
+      margin-bottom: 5px
+    }
+
+    &__id {
+      font-size: 12px;
+      line-height: 14px;
+      margin-bottom: 5px
+    }
+
+    &__buttons {
+      display: flex
+      justify-content: space-between;
+    }
+
+    &__basket {
+      flex-basis: 20px
+      margin-right: 20px
+      background-image: url(../img/basket.png);
+      background-position: center center
+      background-repeat: no-repeat
+    }
+
+    &__buy {
+      flex-basis 100%
+    }
+  }
+
+  &-links {
+    &__item {
+      color $white
+      display: block
+      margin-bottom: 10px
+      font-family: Raleway;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 16px;
+
+      &:hover {
+        text-decoration: none
+      }
+    }
+  }
+
+  &-paginator {
+    display: flex
+    margin-bottom: 20px
+
+    &__item {
+      margin-right: 5px
+    }
+
+    &__link {
+      display: block
+      text-decoration: none
+      color $black
+      border-radius 50px
+      border 1px solid $grey
+      padding: 5px 10px
+      font-size: 16px;
+      line-height: 19px;
+
+      &:hover {
+        background: $grey
+      }
+    }
+  }
+
+  &-basket {
+    padding: 0 55px 20px;
+
+    &__title {
+      font-size: 24px;
+
+      &-num {
+        font-size: 24px;
+        line-height: 29px;
+      }
+    }
+
+    &__subtitle {
+      font-size: 18px;
+    }
+  }
+
+  &-goods {
+
+    &__item {
+      border 1px solid $grey
+      display: flex
+      justify-content space-between
+      align-items: center;
+      padding: 10px 20px
+    }
+
+    &__img {
+      width: 100px
+      flex-basis 100px
+      margin-right: 20px
+    }
+
+    &__title {
+      flex-basis 30%
+      text-align: left
+    }
+
+    &__txt {
+      flex-basis 25%
+      text-align: left
+      font-size: 14px;
+    }
+
+    &__num {
+      flex-basis 25%
+      display: flex
+      justify-content center
+      align-items: center;
+    }
+
+    &__total {
+      flex-basis 25%
+    }
+
+    &__price {
+      font-size: 24px;
+      line-height: 29px;
+    }
+
+    &__bonus {
+      font-size: 12px;
+      line-height: 14px;
+      text-transform: uppercase;
+      color: $orange;
+    }
+
+    &__btn {
+      width: 20px
+      height: 20px
+      text-align: center
+      line-height 20px
+      font-size 18px
+      border 1px solid $grey
+      border-radius 30px
+      margin: 0 10px
+      cursor pointer
+
+      &:hover {
+        background: $grey
+
+      }
+    }
+
+    &__close {
+      text-align: center;
+      border-radius: 30px;
+      border: 1px solid $grey;
+      height: 24px;
+      width: 30px;
+      line-height: 24px;
+      margin: 0 20px;
+      cursor pointer
+
+      &:hover {
+        background: $grey
+
+      }
+    }
+  }
+
+  &-choose {
+    margin: 20px 0
+
+    &__title {
+      font-size: 24px;
+      margin-bottom: 20px
+    }
+
+    &__list {
+      display: flex
+      justify-content space-between
+    }
+
+    &__item {
+      flex-basis 15%
+      font-size: 12px;
+      padding: 20px
+      background: $light-blue
+    }
+
+    &__link {
+      text-decoration: none
+      display: block
+      color $black
+      padding-top: 50px
+
+      &_card  {
+        background: url(../img/payment/card.png) top center no-repeat;
+      }
+
+      &_qiwi  {
+        background: url(../img/payment/qiwi.png) top center no-repeat;
+      }
+
+      &_webmoney  {
+        background: url(../img/payment/wm.png) top center no-repeat;
+      }
+
+      &_yad  {
+        background: url(../img/payment/yad.png) top center no-repeat;
+      }
+
+      &_paypal  {
+        background: url(../img/payment/paypal.png) top center no-repeat;
+      }
+    }
+  }
+
+  &-back {
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color $blue
+    text-transform: uppercase;
+  }
+
+
+  &-order {
+    margin: 20px 0
+
+    &__item {
+      display: flex;
+      justify-content: flex-end;
+      align-items: baseline;
+    }
+
+    &__txt {
+      font-size: 14px;
+    }
+
+    &__price {
+      font-size: 24px;
+      line-height: 29px;
+      width: 100px;
+      text-align: right;
+    }
+
+    &__bonus {
+      font-size: 12px;
+      line-height: 14px;
+      text-transform: uppercase;
+      width: 70px;
+      padding-left: 12px;
+      color $orange
+    }
+
+    &__buy {
+      width: 185px;
+      margin: 20px 0 0 auto;
+      text-transform: uppercase;
+    }
+  }
+
+  &-redirect {
+    font-size: 24px;
+    width: 180px;
+    padding: 20px 70px;
+    margin: 0 auto;
+    background: url(../img/giphy.png) -80px -40px no-repeat;
+  }
+
+  &-bee {
+    width: 700px;
+    height: 370px;
+    margin: 50px auto;
+    background: url(../img/bee.png) 0 0 no-repeat;
+  }
+
+  &-error {
+      width: 700px;
+      height: 300px;
+      margin: 50px auto;
+      padding: 200px 0 0 0
+      text-align: center
+      background: url(../img/404.png) top center no-repeat;
+
+    &__title {
+      font-size: 24px;
+      margin-bottom: 50px;
+    }
+
+    &__txt {
+      font-size: 14px;
+      line-height: 20px;
+
+      a {
+        color $blue
+
+        &:hover {
+          text-decoration: none
+        }
+      }
+    }
+  }
+
+  &-footer {
+    display: flex
+    justify-content space-between
+    padding: 20px 55px;
+    background: $black
+  }
+
+  &-copy {
+    color $white
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  &-email {
+    color $white
+    font-family: Raleway;
+    display: block
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 20px
+
+    &:hover {
+      text-decoration: none
+    }
+  }
+
+  &-support {
+    background: $yellow;
+    box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5px 10px
+  }
+
+  &-payments {
+    display: flex;
+    flex-basis: 20%;
+    flex-wrap: wrap;
+    align-items: center;
+
+    &__item {
+      margin-right: 10px
+
+      &_visa {
+        width: 63px
+        height: 20px
+        background: url(../img/footer/visa.png) center center no-repeat;
+      }
+
+      &_mc {
+        width: 44px
+        height: 36px
+        background: url(../img/footer/mc.png) center center no-repeat;
+      }
+
+      &_qiwi {
+        width: 75px
+        height: 31px
+        background: url(../img/footer/qiwi.png) center center no-repeat;
+      }
+
+      &_yad {
+        width: 87px
+        height: 36px
+        background: url(../img/footer/yad.png) center center no-repeat;
+      }
+
+      &_wm {
+        width: 87px
+        height: 44px
+        background: url(../img/footer/wm.png) center center no-repeat;
+      }
+    }
+  }
+}
+
