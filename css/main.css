@@ -184,6 +184,7 @@ ul {
   text-decoration: none;
 }
 .zoomha-info__count {
+  display: none;
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
@@ -193,6 +194,9 @@ ul {
   border-radius: 10px;
   background: #ffcb08;
   color: #282828;
+}
+.zoomha-info__count_active {
+  display: inline-block;
 }
 .zoomha-breadcrumbs {
   display: flex;
@@ -771,6 +775,18 @@ ul {
 }
 .zoomha-basket__subtitle {
   font-size: 18px;
+}
+.zoomha-basket_empty .zoomha-empty {
+  display: block;
+}
+.zoomha-basket_empty .zoomha-goods__list,
+.zoomha-basket_empty .zoomha-order {
+  display: none;
+}
+.zoomha-empty {
+  display: none;
+  font-size: 24px;
+  text-align: center;
 }
 .zoomha-goods__item {
   border: 1px solid #e5e5e5;

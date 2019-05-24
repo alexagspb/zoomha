@@ -231,6 +231,7 @@ ul {
     }
 
     &__count {
+      display: none
       font-family: Raleway;
       font-style: normal;
       font-weight: bold;
@@ -240,6 +241,10 @@ ul {
       border-radius: 10px;
       background: $yellow
       color $black
+
+      &_active {
+        display: inline-block
+      }
     }
   }
 
@@ -941,6 +946,21 @@ ul {
     &__subtitle {
       font-size: 18px;
     }
+
+    &_empty {
+      .zoomha-empty {
+        display: block
+      }
+      .zoomha-goods__list, .zoomha-order {
+        display: none
+      }
+    }
+  }
+
+  &-empty {
+    display: none
+    font-size: 24px;
+    text-align: center
   }
 
   &-goods {
