@@ -89,9 +89,59 @@ ul {
 .zoomha-auth__item:hover {
   border-bottom: 1px solid transparent;
 }
+.zoomha-auth__item_login {
+  display: none;
+  border-bottom: 1px solid transparent;
+}
 .zoomha-auth__link {
   text-decoration: none;
   color: #282828;
+}
+.zoomha-auth_login .zoomha-auth__item_btn {
+  display: none;
+}
+.zoomha-auth_login .zoomha-auth__item_login {
+  display: block;
+}
+.zoomha-login {
+  position: relative;
+}
+.zoomha-login__list {
+  display: none;
+  position: absolute;
+  top: 30px;
+  left: -8px;
+  width: 145px;
+  background: #ffcb08;
+  padding: 10px;
+  z-index: 1;
+}
+.zoomha-login__title {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-decoration: underline;
+  margin-bottom: 5px;
+}
+.zoomha-login__item {
+  margin-bottom: 5px;
+}
+.zoomha-login__link {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  text-decoration: underline;
+  color: #282828;
+}
+.zoomha-login__link:hover {
+  text-decoration: none;
+}
+.zoomha-login_open .zoomha-login__list {
+  display: block;
 }
 .zoomha-header {
   display: flex;
@@ -671,6 +721,9 @@ ul {
   background-position: center center;
   background-repeat: no-repeat;
 }
+.zoomha-products__basket_added {
+  background-color: #e5e5e5;
+}
 .zoomha-products__buy {
   flex-basis: 100%;
 }
@@ -967,4 +1020,72 @@ ul {
   width: 87px;
   height: 44px;
   background: url("../img/footer/wm.png") center center no-repeat;
+}
+.modal {
+  width: 345px;
+}
+.modal__title {
+  font-family: Raleway;
+  bottom: 20px;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 31px;
+  text-align: center;
+}
+.modal__input {
+  width: 100%;
+  text-align: center;
+  padding: 5px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+.modal__button {
+  width: 100%;
+  box-sizing: border-box;
+}
+.modal__links {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.modal__link {
+  display: block;
+  margin: 10px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #0398d8;
+}
+.modal__link:hover {
+  text-decoration: none;
+}
+.modal-social__title {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.modal-social__list {
+  display: flex;
+  justify-content: center;
+}
+.modal-social__link {
+  display: block;
+  width: 40px;
+  height: 40px;
+  margin: 0 10px;
+}
+.modal-social__link_vk {
+  background: url("../img/vk.png") center center no-repeat;
+}
+.modal-social__link_fb {
+  background: url("../img/fb.png") center center no-repeat;
+}
+.modal-social__link_gp {
+  background: url("../img/gp.png") center center no-repeat;
 }

@@ -112,12 +112,76 @@ ul {
       &:hover {
         border-bottom: 1px solid transparent
       }
+
+      &_login {
+        display: none
+        border-bottom: 1px solid transparent
+      }
     }
 
     &__link {
       text-decoration: none
       color $black
     }
+
+    &_login {
+      .zoomha-auth__item_btn {
+        display: none
+      }
+      .zoomha-auth__item_login {
+        display: block
+      }
+    }
+  }
+
+  &-login {
+    position: relative
+
+    &__list {
+      display: none
+      position: absolute;
+      top: 30px;
+      left: -8px;
+      width: 145px;
+      background: $yellow
+      padding: 10px;
+      z-index: 1;
+    }
+
+    &__title {
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 16px;
+      text-decoration: underline;
+      margin-bottom: 5px
+    }
+
+    &__item {
+      margin-bottom: 5px
+    }
+
+    &__link {
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 14px;
+      text-decoration: underline;
+      color $black
+
+      &:hover {
+        text-decoration: none
+      }
+    }
+
+    &_open {
+      .zoomha-login__list {
+        display: block
+      }
+    }
+
   }
 
   &-header {
@@ -811,6 +875,10 @@ ul {
       background-image: url(../img/basket.png);
       background-position: center center
       background-repeat: no-repeat
+
+      &_added {
+        background-color: $grey
+      }
     }
 
     &__buy {
@@ -1174,6 +1242,92 @@ ul {
         width: 87px
         height: 44px
         background: url(../img/footer/wm.png) center center no-repeat;
+      }
+    }
+  }
+}
+
+
+.modal {
+  width: 345px
+
+  &__title {
+    font-family: Raleway;
+    bottom: 20px
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 31px;
+    text-align: center;
+  }
+
+  &__input {
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+
+  &__button {
+    width: 100%;
+    box-sizing: border-box;
+
+  }
+
+  &__links {
+    display: flex
+    justify-content center
+    margin-bottom: 20px
+  }
+
+  &__link {
+    display: block
+    margin: 10px
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color $blue
+
+    &:hover {
+      text-decoration: none
+    }
+  }
+
+  &-social {
+
+    &__title {
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 16px;
+      text-align: center;
+      margin-bottom: 10px
+    }
+
+    &__list {
+      display: flex
+      justify-content center
+    }
+
+    &__link {
+      display: block
+      width: 40px
+      height: 40px
+      margin: 0 10px
+
+      &_vk {
+        background: url(../img/vk.png) center center no-repeat;
+      }
+
+      &_fb {
+        background: url(../img/fb.png) center center no-repeat;
+      }
+
+      &_gp {
+        background: url(../img/gp.png) center center no-repeat;
       }
     }
   }
