@@ -3,6 +3,7 @@ $( document ).ready(function() {
     var $price = $('.zoomha-price__item')
     var $bonus = $('.zoomha-product__bonus')
     var $combination = $('.zoomha-product__combination')
+    var $banner = $('.zoomha-banners__item')
 
     function updateButton() {
         $button.html('В корзине')
@@ -14,6 +15,16 @@ $( document ).ready(function() {
         $bonus.html(res.bonus + ' Бонусов')
         $combination.html(res.combination)
     }
+
+    function setCountDown() {
+        $banner.countdown("2020/01/01", function(event) {
+                $(this).text(
+                    event.strftime('%D дней %H:%M:%S')
+                );
+            });
+    }
+
+    setCountDown()
 
     $( document ).on('click', '.zoomha-product__button', function () {
 
@@ -62,4 +73,5 @@ $( document ).ready(function() {
                 });
         }
     })
+
 });
