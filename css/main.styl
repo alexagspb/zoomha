@@ -428,10 +428,6 @@ ul {
       width: 100%
       background: url(../img/wave_white.png) repeat-x;
     }
-
-    .zoomha-products__item {
-      max-width: 24%;
-    }
   }
 
   &-banners {
@@ -853,12 +849,6 @@ ul {
       display: flex;
       justify-content: space-between;
       flex-wrap: wrap;
-
-      &_similar {
-        .zoomha-products__item {
-          max-width 24%
-        }
-      }
     }
 
     &__item {
@@ -867,6 +857,14 @@ ul {
       box-sizing: border-box;
       margin-bottom: 2%;
       position: relative;
+
+      &_popular {
+        max-width: 24%;
+      }
+
+      &_similar {
+        max-width: 24%;
+      }
     }
 
     &__bonus {
@@ -1424,7 +1422,14 @@ ul {
       padding: 0 10px;
     }
 
+    &-logo {
+      &__link {
+        margin: 0 auto 20px;
+      }
+    }
+
     &-mainbanner { //todo
+      overflow: hidden;
       &__img {
         max-width 100%
       }
@@ -1433,6 +1438,12 @@ ul {
     &-about {
       display: block
       padding: 20px
+
+      &__item {
+        &_first {
+          text-align: left
+        }
+      }
     }
 
     &-shop {
@@ -1445,16 +1456,75 @@ ul {
 
     &-popular {
       padding: 20px
+    }
 
-      .zoomha-products__item {
-        max-width: 100%;
+    &-catalog {
+      padding: 20px
+    }
+
+    &-banners {
+      display: block
+
+      &__item {
+        display: block
       }
+
+      &__img {
+        width: 100%
+      }
+    }
+
+    &-content {
+      display: block
+    }
+
+    &-leftcol {
+      display: none
+    }
+
+    &-rightcol {
+      padding: 0
+    }
+
+    &-filters {
+      display: none
     }
 
     &-products {
       &__list {
         display: block
       }
+
+      &__item {
+        max-width 100%
+      }
+    }
+
+    &-page {
+      padding: 20px
+    }
+
+    &-bonuses {
+
+      &_page {
+        margin: 0 -20px;
+        padding: 20px;
+      }
+
+      &__list {
+        display: block
+      }
+
+      &__item {
+        max-width 100%
+        margin-bottom: 20px
+      }
+    }
+
+    &-footer {
+      display: block;
+      padding: 20px;
+      text-align: center;
     }
   }
 }

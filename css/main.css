@@ -354,9 +354,6 @@ ul {
   width: 100%;
   background: url("../img/wave_white.png") repeat-x;
 }
-.zoomha-popular .zoomha-products__item {
-  max-width: 24%;
-}
 .zoomha-banners {
   display: flex;
   justify-content: space-between;
@@ -703,15 +700,18 @@ ul {
   justify-content: space-between;
   flex-wrap: wrap;
 }
-.zoomha-products__list_similar .zoomha-products__item {
-  max-width: 24%;
-}
 .zoomha-products__item {
   border: 1px solid #e5e5e5;
   max-width: 32%;
   box-sizing: border-box;
   margin-bottom: 2%;
   position: relative;
+}
+.zoomha-products__item_popular {
+  max-width: 24%;
+}
+.zoomha-products__item_similar {
+  max-width: 24%;
 }
 .zoomha-products__bonus {
   position: absolute;
@@ -1163,12 +1163,21 @@ ul {
   .zoomha-header {
     padding: 0 10px;
   }
+  .zoomha-logo__link {
+    margin: 0 auto 20px;
+  }
+  .zoomha-mainbanner {
+    overflow: hidden;
+  }
   .zoomha-mainbanner__img {
     max-width: 100%;
   }
   .zoomha-about {
     display: block;
     padding: 20px;
+  }
+  .zoomha-about__item_first {
+    text-align: left;
   }
   .zoomha-shop {
     margin: 0;
@@ -1179,10 +1188,53 @@ ul {
   .zoomha-popular {
     padding: 20px;
   }
-  .zoomha-popular .zoomha-products__item {
-    max-width: 100%;
+  .zoomha-catalog {
+    padding: 20px;
+  }
+  .zoomha-banners {
+    display: block;
+  }
+  .zoomha-banners__item {
+    display: block;
+  }
+  .zoomha-banners__img {
+    width: 100%;
+  }
+  .zoomha-content {
+    display: block;
+  }
+  .zoomha-leftcol {
+    display: none;
+  }
+  .zoomha-rightcol {
+    padding: 0;
+  }
+  .zoomha-filters {
+    display: none;
   }
   .zoomha-products__list {
     display: block;
+  }
+  .zoomha-products__item {
+    max-width: 100%;
+  }
+  .zoomha-page {
+    padding: 20px;
+  }
+  .zoomha-bonuses_page {
+    margin: 0 -20px;
+    padding: 20px;
+  }
+  .zoomha-bonuses__list {
+    display: block;
+  }
+  .zoomha-bonuses__item {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+  .zoomha-footer {
+    display: block;
+    padding: 20px;
+    text-align: center;
   }
 }
