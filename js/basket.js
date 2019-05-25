@@ -1,25 +1,8 @@
 $( document ).ready(function() {
-    var $count = $('.zoomha-info__count')
     var $orderPrice = $('.zoomha-order__price')
     var $orderBonus = $('.zoomha-order__bonus')
     var $basket = $('.zoomha-basket')
 
-    function headerBasketCountAdd() {
-        $count.addClass('zoomha-info__count_active')
-        var count = $count.html() || 0
-
-        $count.html(++count)
-    }
-
-    function headerBasketCountRemove() {
-        var count = $count.html()
-
-        $count.html(--count)
-
-        if (count <= 0) {
-            $count.removeClass('zoomha-info__count_active')
-        }
-    }
     function setOrder(res) {
         $orderPrice.html(res.orderPrice + ' P')
         $orderBonus.html(res.orderBonus)
@@ -55,9 +38,9 @@ $( document ).ready(function() {
                 }
 
                 if (self.hasClass('zoomha-goods__btn_minus')) {
-                    headerBasketCountRemove()
+                    $( document ).trigger('headerBasketCountRemove');
                 } else {
-                    headerBasketCountAdd()
+                    $( document ).trigger('headerBasketCountAdd');
                 }
 
                 if ($orderPrice && $orderBonus) {
@@ -86,7 +69,7 @@ $( document ).ready(function() {
                 .always(function() {
                     console.log('basket add always')
                     self.addClass('zoomha-products__basket_added')
-                    headerBasketCountAdd()
+                    $( document ).trigger('headerBasketCountAdd');
                 });
         }
     })
@@ -106,7 +89,7 @@ $( document ).ready(function() {
             .always(function() {
                 console.log('basket remove always')
                 self.closest('.zoomha-goods__item').slideUp()
-                headerBasketCountRemove()
+                $( document ).trigger('headerBasketCountRemove');
             });
     })
 

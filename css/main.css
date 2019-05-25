@@ -521,14 +521,14 @@ ul {
   vertical-align: top;
   margin-right: 20px;
 }
+.zoomha-product__combination {
+  font-size: 14px;
+  line-height: 17px;
+}
 .zoomha-product__size {
   display: inline-block;
   vertical-align: top;
   margin-top: -5px;
-}
-.zoomha-product__size-txt {
-  font-size: 14px;
-  line-height: 17px;
 }
 .zoomha-product__size-list {
   display: flex;
@@ -540,12 +540,23 @@ ul {
   width: 24px;
   height: 24px;
   text-align: center;
-  border: 1px solid #ffcb08;
+  border: 1px solid transparent;
   border-radius: 50px;
+  cursor: pointer;
+}
+.zoomha-product__size-item:hover {
+  border: 1px solid #ffcb08;
+}
+.zoomha-product__size-item_active {
+  border: 1px solid #ffcb08;
 }
 .zoomha-product__button {
   width: 200px;
   margin: 20px 0;
+}
+.zoomha-product__button_added {
+  background: #e5e5e5;
+  cursor: default;
 }
 .zoomha-bonuses_page {
   position: relative;

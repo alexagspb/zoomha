@@ -1,9 +1,9 @@
 $( document ).ready(function() {
-    var $acatalog = $('.zoomha-products')
+    var $catalog = $('.zoomha-products')
     var $paginator = $('.zoomha-paginator')
 
     function updateCatalog() {
-        $acatalog.html('Обновленная страница каталога')
+        $catalog.html('Обновленная страница каталога')
     }
 
     function updatePaginator() {
@@ -29,7 +29,6 @@ $( document ).ready(function() {
     })
 
     $( document ).on('click', '.zoomha-paginator__link', function (e) {
-        console.log(e)
         e.preventDefault()
 
         $.post( "example.php", function(e) {
