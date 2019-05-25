@@ -359,22 +359,22 @@ ul {
   justify-content: space-between;
   margin-bottom: 20px;
 }
-.zoomha-leftmenu {
+.zoomha-leftcol {
   flex-basis: 18%;
   padding-right: 20px;
   margin-right: 20px;
   border-right: 1px solid #e5e5e5;
 }
-.zoomha-leftmenu__title {
+.zoomha-leftcol__title {
   font-size: 18px;
   line-height: 22px;
   margin-bottom: 20px;
 }
-.zoomha-leftmenu__item {
+.zoomha-leftcol__item {
   margin-bottom: 5px;
 }
-.zoomha-leftmenu__link,
-.zoomha-leftmenu__sublink {
+.zoomha-leftcol__link,
+.zoomha-leftcol__sublink {
   display: inline-block;
   color: #282828;
   border-bottom: 1px dashed #282828;
@@ -383,16 +383,16 @@ ul {
   text-decoration: none;
   margin-bottom: 5px;
 }
-.zoomha-leftmenu__link:hover,
-.zoomha-leftmenu__sublink:hover {
+.zoomha-leftcol__link:hover,
+.zoomha-leftcol__sublink:hover {
   border-bottom: 1px solid transparent;
 }
-.zoomha-leftmenu__link_active,
-.zoomha-leftmenu__sublink_active {
+.zoomha-leftcol__link_active,
+.zoomha-leftcol__sublink_active {
   border-bottom: 1px solid transparent;
   color: #ff7008;
 }
-.zoomha-leftmenu__sublist {
+.zoomha-leftcol__sublist {
   margin-left: 20px;
 }
 .zoomha-content {
@@ -441,6 +441,29 @@ ul {
 }
 .zoomha-filters__item_nobonus {
   margin-left: 50px;
+}
+.zoomha-filters__input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.zoomha-filters__input:checked ~ .zoomha-filters__checkmark {
+  background: url("../img/check.png") no-repeat;
+}
+.zoomha-filters__label {
+  position: relative;
+  padding-left: 30px;
+  cursor: pointer;
+}
+.zoomha-filters__checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background: url("../img/uncheck.png") no-repeat;
 }
 .zoomha-page,
 .zoomha-catalog {
@@ -657,7 +680,7 @@ ul {
 .zoomha-bonuses__link:hover {
   text-decoration: none;
 }
-.zoomha-products {
+.zoomha-rightcol {
   flex-basis: 80%;
   padding-left: 50px;
 }
@@ -744,8 +767,10 @@ ul {
   text-decoration: none;
 }
 .zoomha-paginator {
-  display: flex;
   margin-bottom: 20px;
+}
+.zoomha-paginator__list {
+  display: flex;
 }
 .zoomha-paginator__item {
   margin-right: 5px;
@@ -761,6 +786,9 @@ ul {
   line-height: 19px;
 }
 .zoomha-paginator__link:hover {
+  background: #e5e5e5;
+}
+.zoomha-paginator__link_active {
   background: #e5e5e5;
 }
 .zoomha-basket {

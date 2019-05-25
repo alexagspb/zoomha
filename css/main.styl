@@ -437,7 +437,7 @@ ul {
     margin-bottom: 20px
   }
 
-  &-leftmenu {
+  &-leftcol {
     flex-basis: 18%;
     padding-right: 20px;
     margin-right: 20px;
@@ -530,6 +530,33 @@ ul {
       &_nobonus {
         margin-left: 50px
       }
+    }
+
+    &__input {
+      position: absolute;
+      opacity: 0;
+      cursor: pointer;
+      height: 0;
+      width: 0;
+
+      &:checked ~ .zoomha-filters__checkmark {
+        background: url(../img/check.png) no-repeat;
+      }
+    }
+
+    &__label {
+      position: relative
+      padding-left: 30px
+      cursor pointer
+    }
+
+    &__checkmark {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 25px;
+      width: 25px;
+      background: url(../img/uncheck.png) no-repeat;
     }
   }
 
@@ -799,11 +826,12 @@ ul {
     }
   }
 
-  &-products {
+  &-rightcol {
     flex-basis 80%
     padding-left: 50px
+  }
 
-
+  &-products {
     &__list {
       display: flex;
       justify-content: space-between;
@@ -908,8 +936,11 @@ ul {
   }
 
   &-paginator {
-    display: flex
     margin-bottom: 20px
+
+    &__list {
+      display: flex
+    }
 
     &__item {
       margin-right: 5px
@@ -926,6 +957,10 @@ ul {
       line-height: 19px;
 
       &:hover {
+        background: $grey
+      }
+
+      &_active {
         background: $grey
       }
     }
