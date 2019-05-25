@@ -34,7 +34,7 @@ $( document ).ready(function() {
                     self.closest('.zoomha-goods__item').slideUp()
                 } else {
                     self.closest('.zoomha-goods__num').find('.zoomha-goods__count').html(fakeResult.count)
-                    self.closest('.zoomha-goods__item').find('.zoomha-goods__bonus').html(fakeResult.bonus)
+                    self.closest('.zoomha-goods__item').find('.zoomha-goods__bonus').html('+' + fakeResult.bonus + " Бонусов'")
                 }
 
                 if (self.hasClass('zoomha-goods__btn_minus')) {
@@ -90,6 +90,26 @@ $( document ).ready(function() {
                 console.log('basket remove always')
                 self.closest('.zoomha-goods__item').slideUp()
                 $( document ).trigger('headerBasketCountRemove');
+            });
+    })
+
+    $( document ).on('click', '.zoomha-products__buy', function () {
+        $('#buy').modal();
+    })
+
+    $( document ).on('click', '.buy__button', function () {
+        $.post( "example.php", function(e) {
+            console.log('buy button success')
+        })
+            .done(function() {
+                console.log('buy button second success')
+            })
+            .fail(function() {
+                console.log('buy button error')
+            })
+            .always(function() {
+                console.log('buy button always')
+                $.modal.close();
             });
     })
 

@@ -18,7 +18,7 @@ $( document ).ready(function() {
         logout()
     })
 
-    $( document ).on('click', '.modal__button', function () {
+    $( document ).on('click', '.auth__button', function () {
 
         $.post( "example.php", function(e) {
             console.log('auth success')

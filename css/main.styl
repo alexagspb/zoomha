@@ -24,6 +24,8 @@ ul {
 .zoomha {
 
   &-btn {
+    display: block;
+    text-decoration: none;
     background: linear-gradient(270deg, rgba(239, 190, 5, 0.5) 0%, rgba(255, 255, 255, 0) 100%), #FF7008;
     border-radius: 20px;
     padding: 10px 20px
@@ -1112,34 +1114,35 @@ ul {
     &__item {
       flex-basis 15%
       font-size: 12px;
-      padding: 20px
       background: $light-blue
     }
 
     &__link {
-      text-decoration: none
-      display: block
+      text-decoration: none;
+      display: block;
       color $black
-      padding-top: 50px
+      padding: 60px 20px 20px;
+      height: 100%;
+      box-sizing: border-box;
 
       &_card  {
-        background: url(../img/payment/card.png) top center no-repeat;
+        background: url(../img/payment/card.png) center 15px no-repeat;
       }
 
       &_qiwi  {
-        background: url(../img/payment/qiwi.png) top center no-repeat;
+        background: url(../img/payment/qiwi.png) center 10px no-repeat;
       }
 
       &_webmoney  {
-        background: url(../img/payment/wm.png) top center no-repeat;
+        background: url(../img/payment/wm.png) center 5px no-repeat;
       }
 
       &_yad  {
-        background: url(../img/payment/yad.png) top center no-repeat;
+        background: url(../img/payment/yad.png) center 10px no-repeat;
       }
 
       &_paypal  {
-        background: url(../img/payment/paypal.png) top center no-repeat;
+        background: url(../img/payment/paypal.png) center 25px no-repeat;
       }
     }
   }
@@ -1151,6 +1154,10 @@ ul {
     line-height: 16px;
     color $blue
     text-transform: uppercase;
+
+    &:hover {
+      text-decoration: none
+    }
   }
 
 

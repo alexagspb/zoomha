@@ -26,14 +26,24 @@
     <div class="zoomha-top">
       <div class="zoomha-lang">English version</div>
       <div class="zoomha-auth">
-        <div class="zoomha-auth__item">
-          Вход
+        <div class="zoomha-auth__item zoomha-auth__item_btn">
+          <a class="zoomha-auth__link" href="#login" rel="modal:open">Вход</a>
         </div>
-        <div class="zoomha-auth__item">
-          Регистрация
+        <div class="zoomha-auth__item zoomha-auth__item_btn">
+          <a class="zoomha-auth__link" href="#reg" rel="modal:open">Регистрация</a>
+        </div>
+        <div class="zoomha-auth__item zoomha-auth__item_login zoomha-login">
+          <div class="zoomha-login__title">surname@yandex.ru</div>
+          <ul class="zoomha-login__list">
+            <li class="zoomha-login__item"><a href="#" class="zoomha-login__link">Личный кабинет</a></li>
+            <li class="zoomha-login__item"><a href="#" class="zoomha-login__link">Партнерская программа</a></li>
+            <li class="zoomha-login__item"><span class="zoomha-login__link zoomha-logout">Выход</span></li>
+          </ul>
         </div>
       </div>
     </div>
+
+
     <header class="zoomha-header">
 
       <ul class="zoomha-menu">
@@ -237,7 +247,7 @@
     <form action="">
       <input class="modal__input" type="text">
       <input class="modal__input" type="text">
-      <div class="zoomha-btn modal__button">Войти</div>
+      <div class="zoomha-btn modal__button auth__button">Войти</div>
       <div class="modal__links">
         <a class="modal__link" href="">Забыл пароль</a>
         <a class="modal__link" href="#reg" rel="modal:open">Регистрация</a>
@@ -258,10 +268,18 @@
     <form action="">
       <input class="modal__input" type="text">
       <input class="modal__input" type="text">
-      <div class="zoomha-btn modal__button">Зарегистрироваться</div>
+      <div class="zoomha-btn modal__button auth__button">Зарегистрироваться</div>
       <div class="modal__links">
         <a class="modal__link" href="#login" rel="modal:open">Войти</a>
       </div>
+    </form>
+  </div>
+
+  <div id="buy" class="modal">
+    <div class="modal__title">Введите email</div>
+    <form action="">
+      <input class="modal__input" type="text">
+      <div class="zoomha-btn modal__button buy__button">Купить</div>
     </form>
   </div>
 

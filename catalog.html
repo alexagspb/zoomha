@@ -26,14 +26,23 @@
     <div class="zoomha-top">
       <div class="zoomha-lang">English version</div>
       <div class="zoomha-auth">
-        <div class="zoomha-auth__item">
-          Вход
+        <div class="zoomha-auth__item zoomha-auth__item_btn">
+          <a class="zoomha-auth__link" href="#login" rel="modal:open">Вход</a>
         </div>
-        <div class="zoomha-auth__item">
-          Регистрация
+        <div class="zoomha-auth__item zoomha-auth__item_btn">
+          <a class="zoomha-auth__link" href="#reg" rel="modal:open">Регистрация</a>
+        </div>
+        <div class="zoomha-auth__item zoomha-auth__item_login zoomha-login">
+          <div class="zoomha-login__title">surname@yandex.ru</div>
+          <ul class="zoomha-login__list">
+            <li class="zoomha-login__item"><a href="#" class="zoomha-login__link">Личный кабинет</a></li>
+            <li class="zoomha-login__item"><a href="#" class="zoomha-login__link">Партнерская программа</a></li>
+            <li class="zoomha-login__item"><span class="zoomha-login__link zoomha-logout">Выход</span></li>
+          </ul>
         </div>
       </div>
     </div>
+
     <header class="zoomha-header">
 
       <ul class="zoomha-menu">
@@ -63,7 +72,7 @@
           <a href="" class="zoomha-info__link">История заказов</a>
         </li>
         <li class="zoomha-info__item">
-          <a href="" class="zoomha-info__link">Корзина <span class="zoomha-info__count">2</span></a>
+          <a href="" class="zoomha-info__link">Корзина <span class="zoomha-info__count"></span></a>
         </li>
       </ul>
     </header>
@@ -302,7 +311,7 @@
     <form action="">
       <input class="modal__input" type="text">
       <input class="modal__input" type="text">
-      <div class="zoomha-btn modal__button">Войти</div>
+      <div class="zoomha-btn modal__button auth__button">Войти</div>
       <div class="modal__links">
         <a class="modal__link" href="">Забыл пароль</a>
         <a class="modal__link" href="#reg" rel="modal:open">Регистрация</a>
@@ -323,10 +332,18 @@
     <form action="">
       <input class="modal__input" type="text">
       <input class="modal__input" type="text">
-      <div class="zoomha-btn modal__button">Зарегистрироваться</div>
+      <div class="zoomha-btn modal__button auth__button">Зарегистрироваться</div>
       <div class="modal__links">
         <a class="modal__link" href="#login" rel="modal:open">Войти</a>
       </div>
+    </form>
+  </div>
+
+  <div id="buy" class="modal">
+    <div class="modal__title">Введите email</div>
+    <form action="">
+      <input class="modal__input" type="text">
+      <div class="zoomha-btn modal__button buy__button">Купить</div>
     </form>
   </div>
 
@@ -334,6 +351,7 @@
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+  <script src="js/header.js"></script>
   <script src="js/auth.js"></script>
   <script src="js/basket.js"></script>
   <script src="js/catalog.js"></script>

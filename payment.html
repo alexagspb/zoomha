@@ -11,6 +11,7 @@
   <!-- Place favicon.ico in the root directory -->
 
   <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
   <link rel="stylesheet" href="fonts/museosanscyrl/museosanscyrl.css">
   <link rel="stylesheet" href="fonts/raleway/raleway.css">
   <link rel="stylesheet" href="css/main.css">
@@ -23,13 +24,21 @@
 
   <div class="zoomha-wrapper">
     <div class="zoomha-top">
-      <div class="zoomha-lang"></div>
+      <div class="zoomha-lang">English version</div>
       <div class="zoomha-auth">
-        <div class="zoomha-auth__item">
-          Вход
+        <div class="zoomha-auth__item zoomha-auth__item_btn">
+          <a class="zoomha-auth__link" href="#login" rel="modal:open">Вход</a>
         </div>
-        <div class="zoomha-auth__item">
-          Регистрация
+        <div class="zoomha-auth__item zoomha-auth__item_btn">
+          <a class="zoomha-auth__link" href="#reg" rel="modal:open">Регистрация</a>
+        </div>
+        <div class="zoomha-auth__item zoomha-auth__item_login zoomha-login">
+          <div class="zoomha-login__title">surname@yandex.ru</div>
+          <ul class="zoomha-login__list">
+            <li class="zoomha-login__item"><a href="#" class="zoomha-login__link">Личный кабинет</a></li>
+            <li class="zoomha-login__item"><a href="#" class="zoomha-login__link">Партнерская программа</a></li>
+            <li class="zoomha-login__item"><span class="zoomha-login__link zoomha-logout">Выход</span></li>
+          </ul>
         </div>
       </div>
     </div>
@@ -87,29 +96,29 @@
       <div class="zoomha-choose__title">Выберите способ оплаты:</div>
       <ul class="zoomha-choose__list">
         <li class="zoomha-choose__item">
-          <a href="" class="zoomha-choose__link zoomha-choose__link_card">
+          <a href="redirect.html" class="zoomha-choose__link zoomha-choose__link_card">
             Оплата посредством списания с международной банковской карты VISA или MasterCard
           </a>
         </li>
         <li class="zoomha-choose__item">
-          <a href="" class="zoomha-choose__link zoomha-choose__link_qiwi">
+          <a href="redirect.html" class="zoomha-choose__link zoomha-choose__link_qiwi">
             Оплата посредством списания с международной банковской карты VISA или MasterCard
           </a>
         </li>
         <li class="zoomha-choose__item">
-          <a href="" class="zoomha-choose__link zoomha-choose__link_webmoney">
+          <a href="redirect.html" class="zoomha-choose__link zoomha-choose__link_webmoney">
             Оплата посредством списания с международной банковской карты VISA или MasterCard
           </a>
         </li>
         <li class="zoomha-choose__item">
-          <a href="" class="zoomha-choose__link zoomha-choose__link_yad"></a>
+          <a href="redirect.html" class="zoomha-choose__link zoomha-choose__link_yad"></a>
         </li>
         <li class="zoomha-choose__item">
-          <a href="" class="zoomha-choose__link zoomha-choose__link_paypal"></a>
+          <a href="redirect.html" class="zoomha-choose__link zoomha-choose__link_paypal"></a>
         </li>
       </ul>
     </div>
-    <a href="" class="zoomha-back">Назад</a>
+    <a href="basket.html" class="zoomha-back">Назад</a>
 
   </div>
 
@@ -139,10 +148,44 @@
   </footer>
   </div>
 
+  <div id="login" class="modal">
+    <div class="modal__title">Вход в личный кабинет</div>
+    <form action="">
+      <input class="modal__input" type="text">
+      <input class="modal__input" type="text">
+      <div class="zoomha-btn modal__button auth__button">Войти</div>
+      <div class="modal__links">
+        <a class="modal__link" href="">Забыл пароль</a>
+        <a class="modal__link" href="#reg" rel="modal:open">Регистрация</a>
+      </div>
+    </form>
+    <div class="modal-social">
+      <div class="modal-social__title">Войти через соцсети</div>
+      <div class="modal-social__list">
+        <a href="#" class="modal-social__link modal-social__link_vk"></a>
+        <a href="#" class="modal-social__link modal-social__link_fb"></a>
+        <a href="#" class="modal-social__link modal-social__link_gp"></a>
+      </div>
+    </div>
+  </div>
+
+  <div id="reg" class="modal">
+    <div class="modal__title">Регистрация</div>
+    <form action="">
+      <input class="modal__input" type="text">
+      <input class="modal__input" type="text">
+      <div class="zoomha-btn modal__button auth__button">Зарегистрироваться</div>
+      <div class="modal__links">
+        <a class="modal__link" href="#login" rel="modal:open">Войти</a>
+      </div>
+    </form>
+  </div>
+
   <script src="js/vendor/modernizr-3.7.1.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
-  <script src="js/plugins.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+  <script src="js/auth.js"></script>
   <script src="js/main.js"></script>
 </body>
 
