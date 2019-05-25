@@ -45,6 +45,7 @@ ul {
   top: 38px;
   left: -20px;
   background: url("../img/shadow.png") center center no-repeat;
+  z-index: 1;
 }
 .zoomha-top {
   height: 30px;
