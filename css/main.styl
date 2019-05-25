@@ -697,13 +697,6 @@ ul {
       &_profile {
         justify-content flex-start
         flex-wrap: wrap;
-
-        .zoomha-bonuses__item {
-          margin-right: 2%;
-          margin-bottom: 3%;
-          flex-basis: 31%;
-          max-width: 31%;
-        }
       }
 
     }
@@ -717,6 +710,12 @@ ul {
       border-radius: 20px 0px 20px 20px;
       padding: 20px
 
+      &_profile {
+        margin-right: 2%;
+        margin-bottom: 3%;
+        flex-basis: 31%;
+        max-width: 31%;
+      }
 
       &_eagle {
         background:  url("../img/bonus/bonus2.png") no-repeat right center, linear-gradient(226.58deg, #26BD00 4.63%, rgba(255, 255, 255, 0) 91.01%), #3FDA09;
@@ -1519,6 +1518,78 @@ ul {
         max-width 100%
         margin-bottom: 20px
       }
+    }
+
+    &-basket {
+      padding: 20px
+    }
+
+    &-goods {
+      &__item {
+        display: block
+        position: relative
+      }
+
+      &__title {
+        position: absolute;
+        top: 10px;
+        left: 140px;
+        padding-right: 40px;
+      }
+
+      &__close {
+        position: absolute;
+        top: 10px;
+        right: -10px;
+        width: 24px;
+      }
+
+      &__txt {
+        position: absolute;
+        top: 50px;
+        left: 140px;
+      }
+
+      &__total {
+        margin: 10px 0 30px 120px;
+      }
+
+      &__num {
+        position: absolute;
+        bottom: 5px;
+        left: 140px;
+      }
+    }
+
+    &-order {
+      &__item {
+        justify-content: flex-start
+      }
+
+      &__buy {
+        width: 100%;
+        box-sizing: border-box;
+      }
+    }
+
+    &-choose {
+      &__list {
+        display: block
+      }
+
+      &__item {
+        margin-bottom: 20px;
+      }
+    }
+
+    &-bee {
+      width: 100%;
+      background-size: contain;
+    }
+
+    &-error {
+      width: 100%;
+      background-size: contain;
     }
 
     &-footer {

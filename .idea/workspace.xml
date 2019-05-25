@@ -5,8 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.styl" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page.html" beforeDir="false" afterPath="$PROJECT_DIR$/page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/profile.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -44,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.styl" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.styl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.styl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="1511" column="7" lean-forward="true" selection-start-line="1511" selection-start-column="7" selection-end-line="1511" selection-end-column="7" />
+            <state relative-caret-position="55">
+              <caret line="698" column="24" selection-start-line="698" selection-start-column="24" selection-end-line="698" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -119,11 +118,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="profile.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="profile.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/profile.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="77" column="13" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="13" />
+            <state relative-caret-position="358">
+              <caret line="160" column="70" selection-start-line="160" selection-start-column="70" selection-end-line="160" selection-end-column="70" />
               <folding>
                 <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
@@ -137,7 +136,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>baske</find>
       <find>zoomha-auth</find>
       <find>zoomha-goods__btn</find>
       <find>filters</find>
@@ -167,6 +165,7 @@
       <find>shop</find>
       <find>_similar</find>
       <find>products</find>
+      <find>_prof</find>
     </findStrings>
     <replaceStrings>
       <replace>zoomha-product__subtitle</replace>
@@ -202,7 +201,6 @@
         <option value="$PROJECT_DIR$/js/basket.js" />
         <option value="$PROJECT_DIR$/js/page.js" />
         <option value="$PROJECT_DIR$/redirect.html" />
-        <option value="$PROJECT_DIR$/profile.html" />
         <option value="$PROJECT_DIR$/payment.html" />
         <option value="$PROJECT_DIR$/catalog.html" />
         <option value="$PROJECT_DIR$/basket.html" />
@@ -210,6 +208,7 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/page.html" />
         <option value="$PROJECT_DIR$/css/main.styl" />
+        <option value="$PROJECT_DIR$/profile.html" />
       </list>
     </option>
   </component>
@@ -314,7 +313,7 @@
       <workItem from="1558620291930" duration="11939000" />
       <workItem from="1558694149429" duration="8590000" />
       <workItem from="1558784605548" duration="14012000" />
-      <workItem from="1558805077257" duration="1908000" />
+      <workItem from="1558805077257" duration="3371000" />
     </task>
     <task id="LOCAL-00001" summary="Add js">
       <created>1558700274044</created>
@@ -372,11 +371,18 @@
       <option name="project" value="LOCAL" />
       <updated>1558804778003</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Add mobile styles">
+      <created>1558807778504</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1558807778504</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63552000" />
+    <option name="totallyTimeSpent" value="65015000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="23" width="1680" height="952" extended-state="6" />
@@ -388,10 +394,10 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3296593" />
       <window_info anchor="bottom" auto_hide="true" id="Run" internal_type="SLIDING" order="2" type="SLIDING" weight="0.3296593" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2857143" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2857143" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.32915717" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32915717" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -814,18 +820,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/profile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="77" column="13" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="13" />
-          <folding>
-            <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/payment.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1037">
@@ -895,8 +889,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.styl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="1511" column="7" lean-forward="true" selection-start-line="1511" selection-start-column="7" selection-end-line="1511" selection-end-column="7" />
+        <state relative-caret-position="55">
+          <caret line="698" column="24" selection-start-line="698" selection-start-column="24" selection-end-line="698" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="160" column="70" selection-start-line="160" selection-start-column="70" selection-end-line="160" selection-end-column="70" />
+          <folding>
+            <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>

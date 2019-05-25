@@ -581,12 +581,6 @@ ul {
   justify-content: flex-start;
   flex-wrap: wrap;
 }
-.zoomha-bonuses__list_profile .zoomha-bonuses__item {
-  margin-right: 2%;
-  margin-bottom: 3%;
-  flex-basis: 31%;
-  max-width: 31%;
-}
 .zoomha-bonuses__item {
   position: relative;
   flex-basis: 24%;
@@ -595,6 +589,12 @@ ul {
   box-sizing: border-box;
   border-radius: 20px 0px 20px 20px;
   padding: 20px;
+}
+.zoomha-bonuses__item_profile {
+  margin-right: 2%;
+  margin-bottom: 3%;
+  flex-basis: 31%;
+  max-width: 31%;
 }
 .zoomha-bonuses__item_eagle {
   background: url("../img/bonus/bonus2.png") no-repeat right center, linear-gradient(226.58deg, #26bd00 4.63%, rgba(255,255,255,0) 91.01%), #3fda09;
@@ -1231,6 +1231,59 @@ ul {
   .zoomha-bonuses__item {
     max-width: 100%;
     margin-bottom: 20px;
+  }
+  .zoomha-basket {
+    padding: 20px;
+  }
+  .zoomha-goods__item {
+    display: block;
+    position: relative;
+  }
+  .zoomha-goods__title {
+    position: absolute;
+    top: 10px;
+    left: 140px;
+    padding-right: 40px;
+  }
+  .zoomha-goods__close {
+    position: absolute;
+    top: 10px;
+    right: -10px;
+    width: 24px;
+  }
+  .zoomha-goods__txt {
+    position: absolute;
+    top: 50px;
+    left: 140px;
+  }
+  .zoomha-goods__total {
+    margin: 10px 0 30px 120px;
+  }
+  .zoomha-goods__num {
+    position: absolute;
+    bottom: 5px;
+    left: 140px;
+  }
+  .zoomha-order__item {
+    justify-content: flex-start;
+  }
+  .zoomha-order__buy {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .zoomha-choose__list {
+    display: block;
+  }
+  .zoomha-choose__item {
+    margin-bottom: 20px;
+  }
+  .zoomha-bee {
+    width: 100%;
+    background-size: contain;
+  }
+  .zoomha-error {
+    width: 100%;
+    background-size: contain;
   }
   .zoomha-footer {
     display: block;
