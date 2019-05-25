@@ -1151,3 +1151,38 @@ ul {
 .modal-social__link_gp {
   background: url("../img/gp.png") center center no-repeat;
 }
+@media screen and (max-width: 480px) {
+  .zoomha-wrapper {
+    width: 100%;
+  }
+  .zoomha-top,
+  .zoomha-menu,
+  .zoomha-info {
+    display: none;
+  }
+  .zoomha-header {
+    padding: 0 10px;
+  }
+  .zoomha-mainbanner__img {
+    max-width: 100%;
+  }
+  .zoomha-about {
+    display: block;
+    padding: 20px;
+  }
+  .zoomha-shop {
+    margin: 0;
+  }
+  .zoomha-shop__img {
+    max-width: 100%;
+  }
+  .zoomha-popular {
+    padding: 20px;
+  }
+  .zoomha-popular .zoomha-products__item {
+    max-width: 100%;
+  }
+  .zoomha-products__list {
+    display: block;
+  }
+}

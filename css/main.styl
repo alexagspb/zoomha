@@ -1410,3 +1410,52 @@ ul {
   }
 }
 
+@media screen and (max-width: 480px) {
+  .zoomha {
+    &-wrapper {
+      width: 100%
+    }
+
+    &-top, &-menu, &-info {
+      display: none
+    }
+
+    &-header {
+      padding: 0 10px;
+    }
+
+    &-mainbanner { //todo
+      &__img {
+        max-width 100%
+      }
+    }
+
+    &-about {
+      display: block
+      padding: 20px
+    }
+
+    &-shop {
+      margin: 0
+
+      &__img  {
+        max-width 100%
+      }
+    }
+
+    &-popular {
+      padding: 20px
+
+      .zoomha-products__item {
+        max-width: 100%;
+      }
+    }
+
+    &-products {
+      &__list {
+        display: block
+      }
+    }
+  }
+}
+
