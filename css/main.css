@@ -204,7 +204,7 @@ ul {
   box-sizing: border-box;
   z-index: 1;
   transform: translateX(-100%);
-  transition: all 0.1s linear;
+  transition: transform 0.1s;
 }
 .zoomha-mobilemenu_active {
   transform: translateX(0);
@@ -1337,5 +1337,16 @@ ul {
     display: block;
     padding: 20px;
     text-align: center;
+  }
+  .blocker:before {
+    display: none;
+  }
+  .modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
   }
 }
