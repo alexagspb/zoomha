@@ -22,4 +22,24 @@ $( document ).ready(function() {
     // window.onresize = function() {
     //     viewportSet();
     // }
+
+    var $mobilemenu = $('.zoomha-mobilemenu')
+
+
+    function openMobileMenu() {
+        $mobilemenu.addClass('zoomha-mobilemenu_active')
+    }
+
+    function closeMobileMenu() {
+        $mobilemenu.removeClass('zoomha-mobilemenu_active')
+    }
+
+    $( document ).on('click', '.zoomha-mobile__open', function () {
+        openMobileMenu()
+    })
+
+    $( document ).on('click', '.zoomha-mobilemenu__close', function () {
+        closeMobileMenu()
+    })
+
 });
