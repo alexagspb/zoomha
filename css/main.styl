@@ -8,7 +8,13 @@ $dark-grey = #919191
 $blue = #0398D8
 $light-blue = #F4FBFF
 
+
+html {
+  height: 100%;
+}
+
 body {
+  height: 100%;
   padding: 0
   margin: 0
   font-family: 'Museo Sans Cyrl';
@@ -42,8 +48,11 @@ ul {
 
   &-wrapper {
     width: 1280px
+    min-height: 100%;
     margin: 0 auto
-    border 1px solid #ccc
+    box-sizing: border-box;
+    padding: 89px 0 148px;
+    border 1px solid $grey
   }
 
   &-logo {
@@ -53,7 +62,7 @@ ul {
       width: 145px;
       height: 55px;
       display: block;
-      background: url(../img/logo.png) 10px center no-repeat;
+      background: url(../img/logo.png) 0 center no-repeat;
 
       &_header {
         border-radius: 50%;
@@ -75,9 +84,14 @@ ul {
   &-top {
     height: 31px
     background: $yellow
-    padding: 0 55px
-    display: flex
-    justify-content space-between
+    padding: 0 55px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 1280px;
+    top: 0;
+    box-sizing: border-box;
+    z-index: 3
   }
 
   &-lang {
@@ -192,12 +206,17 @@ ul {
   }
 
   &-header {
+    position: fixed;
+    width: 1280px;
+    box-sizing: border-box;
     display: flex;
     justify-content: space-between;
+    top: 31px;
     height: 59px;
     line-height: 61px;
     padding: 0px 55px;
     background: $black
+    z-index: 3
   }
 
   &-menu {
@@ -323,7 +342,7 @@ ul {
     justify-content space-between
 
     &__item {
-      margin-left: 50px
+      margin-left: 33px
     }
 
     &__link {
@@ -337,20 +356,28 @@ ul {
     }
 
     &__count {
-      display: none
+      visibility hidden
+      display: inline-block
+      vertical-align: text-bottom;
       font-family: Raleway;
       font-style: normal;
       font-weight: 700;
       font-size: 12px;
-      line-height: 14px;
-      padding: 2px 6px;
+      line-height: 17px;
+      height: 17px;
+      width: 17px
+      text-align: center;
       border-radius: 10px;
       background: $yellow
       color $black
 
       &_active {
-        display: inline-block
+        visibility visible
       }
+    }
+
+    &__bonus {
+      font-size: 18px;
     }
   }
 
@@ -360,6 +387,15 @@ ul {
 
     &__item {
       margin-right: 5px
+      position: relative
+
+      &:after {
+        content '›'
+      }
+
+      &:last-child:after {
+        display: none
+      }
     }
 
     &__link {
@@ -950,6 +986,7 @@ ul {
       display: flex;
       justify-content: space-between;
       flex-wrap: wrap;
+      margin-bottom: 20px
     }
 
     &__item {
@@ -1067,7 +1104,7 @@ ul {
     }
 
     &__item {
-      margin-right: 5px
+      margin-right: 11px
     }
 
     &__link {
@@ -1076,9 +1113,16 @@ ul {
       color $black
       border-radius 50px
       border 1px solid $grey
-      padding: 5px 10px
+      width: 32px;
+      height: 32px;
+      text-align: center;
+      line-height: 34px;
       font-size: 16px;
-      line-height: 19px;
+
+      &_next {
+        width auto
+        padding: 0 20px
+      }
 
       &:hover {
         background: $grey
@@ -1091,7 +1135,7 @@ ul {
   }
 
   &-basket {
-    padding: 0 55px 20px;
+    padding: 18px 55px 0;
 
     &__title {
       font-size: 24px;
@@ -1307,12 +1351,12 @@ ul {
     font-size: 24px;
     width: 180px;
     padding: 20px 70px;
-    margin: 0 auto;
-    background: url(../img/giphy.png) -80px -40px no-repeat;
+    margin: 57px auto;
+    background: url(../img/giphy.png) -80px -42px no-repeat;
   }
 
   &-bee {
-    width: 700px;
+    width: 667px;
     height: 370px;
     margin: 50px auto;
     background: url(../img/bee.png) 0 0 no-repeat;
@@ -1346,9 +1390,13 @@ ul {
   }
 
   &-footer {
-    display: flex
-    justify-content space-between
-    padding: 20px 55px;
+    display: flex;
+    justify-content: space-between;
+    padding: 22px 55px;
+    width: 1280px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    margin-top -148px
     background: $black
   }
   &-copy {

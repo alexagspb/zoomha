@@ -1,4 +1,8 @@
+html {
+  height: 100%;
+}
 body {
+  height: 100%;
   padding: 0;
   margin: 0;
   font-family: 'Museo Sans Cyrl';
@@ -27,8 +31,11 @@ ul {
 }
 .zoomha-wrapper {
   width: 1280px;
+  min-height: 100%;
   margin: 0 auto;
-  border: 1px solid #ccc;
+  box-sizing: border-box;
+  padding: 89px 0 148px;
+  border: 1px solid #e5e5e5;
 }
 .zoomha-logo {
   position: relative;
@@ -37,7 +44,7 @@ ul {
   width: 145px;
   height: 55px;
   display: block;
-  background: url("../img/logo.png") 10px center no-repeat;
+  background: url("../img/logo.png") 0 center no-repeat;
 }
 .zoomha-logo__link_header {
   border-radius: 50%;
@@ -58,6 +65,11 @@ ul {
   padding: 0 55px;
   display: flex;
   justify-content: space-between;
+  position: fixed;
+  width: 1280px;
+  top: 0;
+  box-sizing: border-box;
+  z-index: 3;
 }
 .zoomha-lang {
   display: inline-block;
@@ -151,12 +163,17 @@ ul {
   display: block;
 }
 .zoomha-header {
+  position: fixed;
+  width: 1280px;
+  box-sizing: border-box;
   display: flex;
   justify-content: space-between;
+  top: 31px;
   height: 59px;
   line-height: 61px;
   padding: 0px 55px;
   background: #282828;
+  z-index: 3;
 }
 .zoomha-menu {
   display: flex;
@@ -267,7 +284,7 @@ ul {
   justify-content: space-between;
 }
 .zoomha-info__item {
-  margin-left: 50px;
+  margin-left: 33px;
 }
 .zoomha-info__link {
   font-family: Raleway;
@@ -279,19 +296,26 @@ ul {
   text-decoration: none;
 }
 .zoomha-info__count {
-  display: none;
+  visibility: hidden;
+  display: inline-block;
+  vertical-align: text-bottom;
   font-family: Raleway;
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
-  line-height: 14px;
-  padding: 2px 6px;
+  line-height: 17px;
+  height: 17px;
+  width: 17px;
+  text-align: center;
   border-radius: 10px;
   background: #ffcb08;
   color: #282828;
 }
 .zoomha-info__count_active {
-  display: inline-block;
+  visibility: visible;
+}
+.zoomha-info__bonus {
+  font-size: 18px;
 }
 .zoomha-breadcrumbs {
   display: flex;
@@ -299,6 +323,13 @@ ul {
 }
 .zoomha-breadcrumbs__item {
   margin-right: 5px;
+  position: relative;
+}
+.zoomha-breadcrumbs__item:after {
+  content: '›';
+}
+.zoomha-breadcrumbs__item:last-child:after {
+  display: none;
 }
 .zoomha-breadcrumbs__link {
   color: #282828;
@@ -792,6 +823,7 @@ ul {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin-bottom: 20px;
 }
 .zoomha-products__item {
   border: 1px solid #e5e5e5;
@@ -888,7 +920,7 @@ ul {
   display: flex;
 }
 .zoomha-paginator__item {
-  margin-right: 5px;
+  margin-right: 11px;
 }
 .zoomha-paginator__link {
   display: block;
@@ -896,9 +928,15 @@ ul {
   color: #282828;
   border-radius: 50px;
   border: 1px solid #e5e5e5;
-  padding: 5px 10px;
+  width: 32px;
+  height: 32px;
+  text-align: center;
+  line-height: 34px;
   font-size: 16px;
-  line-height: 19px;
+}
+.zoomha-paginator__link_next {
+  width: auto;
+  padding: 0 20px;
 }
 .zoomha-paginator__link:hover {
   background: #e5e5e5;
@@ -907,7 +945,7 @@ ul {
   background: #e5e5e5;
 }
 .zoomha-basket {
-  padding: 0 55px 20px;
+  padding: 18px 55px 0;
 }
 .zoomha-basket__title {
   font-size: 24px;
@@ -1082,11 +1120,11 @@ ul {
   font-size: 24px;
   width: 180px;
   padding: 20px 70px;
-  margin: 0 auto;
-  background: url("../img/giphy.png") -80px -40px no-repeat;
+  margin: 57px auto;
+  background: url("../img/giphy.png") -80px -42px no-repeat;
 }
 .zoomha-bee {
-  width: 700px;
+  width: 667px;
   height: 370px;
   margin: 50px auto;
   background: url("../img/bee.png") 0 0 no-repeat;
@@ -1116,7 +1154,11 @@ ul {
 .zoomha-footer {
   display: flex;
   justify-content: space-between;
-  padding: 20px 55px;
+  padding: 22px 55px;
+  width: 1280px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  margin-top: -148px;
   background: #282828;
 }
 .zoomha-copy {
