@@ -23,22 +23,40 @@ $( document ).ready(function() {
     //     viewportSet();
     // }
 
-    var $mobilemenu = $('.zoomha-mobilemenu')
+    var $mobilemenumain = $('.zoomha-mobilemenu_main')
+    var $mobilemenufilters = $('.zoomha-mobilemenu_filters')
+    var $mobilemenucategory = $('.zoomha-mobilemenu_category')
+    var $mobilemenuprofile = $('.zoomha-mobilemenu_profile')
 
-
-    function openMobileMenu() {
-        $mobilemenu.addClass('zoomha-mobilemenu_active')
+    function openMobileMenu(elem) {
+        elem.addClass('zoomha-mobilemenu_active')
     }
 
     function closeMobileMenu() {
-        $mobilemenu.removeClass('zoomha-mobilemenu_active')
+        $('.zoomha-mobilemenu').removeClass('zoomha-mobilemenu_active')
     }
 
     $( document ).on('click', '.zoomha-mobile__open', function () {
-        openMobileMenu()
+        openMobileMenu($mobilemenumain)
+    })
+
+    $( document ).on('click', '.zoomha-mobile__button_filter', function () {
+        openMobileMenu($mobilemenufilters)
+    })
+
+    $( document ).on('click', '.zoomha-mobile__button_category', function () {
+        openMobileMenu($mobilemenucategory)
+    })
+
+    $( document ).on('click', '.zoomha-mobilemenu__show', function () {
+        openMobileMenu($mobilemenuprofile)
     })
 
     $( document ).on('click', '.zoomha-mobilemenu__close', function () {
+        closeMobileMenu()
+    })
+
+    $( document ).on('click', '.zoomha-mobilemenu__hide', function () {
         closeMobileMenu()
     })
 

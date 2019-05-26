@@ -61,7 +61,7 @@ ul {
           top: 38px;
           left: -20px;
           background: url(../img/shadow.png) center center no-repeat;
-          z-index: 1
+          z-index: 2
         }
       }
     }
@@ -216,6 +216,7 @@ ul {
   }
 
   &-mobile {
+    display: none
     position: relative
     width: 100%
 
@@ -240,8 +241,6 @@ ul {
     }
   }
   &-mobilemenu {
-    background: #282828;
-    color: #f4fbff;
     position: fixed;
     left: 0;
     top: 0;
@@ -249,12 +248,41 @@ ul {
     height: 100%;
     padding: 20px;
     box-sizing: border-box;
-    z-index: 1;
     transform: translateX(-100%);
     transition transform .1s
+    z-index: 2
 
     &_active {
       transform: translateX(0);
+      box-shadow 0 0 10px $black
+
+      .zoomha-mobilemenu__show {
+        display: none
+      }
+
+      .zoomha-mobilemenu__hide {
+        display: block
+      }
+    }
+
+    &_profile {
+      width: 50%;
+      background: #fff;
+      top: 51px;
+      z-index: 1;
+    }
+
+    &_main {
+      background: $black;
+      color: $white;
+    }
+
+    &_filters {
+      background: $grey
+    }
+
+    &_category {
+      background: $grey
     }
 
     &__close {
@@ -265,6 +293,25 @@ ul {
       height: 20px;
       cursor: pointer;
       background: url(../img/menu/close_white.png) center center no-repeat;
+    }
+
+    &__show, &__hide {
+      position: absolute;
+      top: 50%;
+      right: -20px;
+      width: 20px;
+      height: 40px;
+      margin-top: -40px;
+      background: $grey;
+      font-size: 36px;
+      line-height: 34px;
+      text-align: center;
+      border-radius: 0 5px 5px 0;
+      cursor: pointer;
+    }
+
+    &__hide {
+      display: none
     }
   }
   &-info {
@@ -1642,6 +1689,28 @@ ul {
       display: block;
       padding: 20px;
       text-align: center;
+    }
+
+    &-mobile {
+      display: block
+
+      &__buttons {
+        display: flex
+        justify-content space-between
+        margin-bottom: 20px
+      }
+
+      &__button {
+        background: $grey;
+        border: 1px solid $grey;
+        box-sizing: border-box;
+        border-radius: 10px;
+        flex-basis 48%
+        text-align: center
+        height: 30px;
+        line-height: 30px;
+        cursor pointer
+      }
     }
   }
 
