@@ -18,6 +18,7 @@ ul {
   text-decoration: none;
   background: linear-gradient(270deg, rgba(239,190,5,0.5) 0%, rgba(255,255,255,0) 100%), #ff7008;
   border-radius: 20px;
+  box-sizing: border-box;
   padding: 10px 37px;
   color: #f4fbff;
   width: 100px;
@@ -224,7 +225,7 @@ ul {
   box-sizing: border-box;
   transform: translateX(-100%);
   transition: transform 0.1s;
-  z-index: 2;
+  z-index: 3;
 }
 .zoomha-mobilemenu_active {
   transform: translateX(0);
@@ -261,6 +262,10 @@ ul {
   cursor: pointer;
   background: url("../img/menu/close_white.png") center center no-repeat;
 }
+.zoomha-mobilemenu__close_filters,
+.zoomha-mobilemenu__close_category {
+  background: url("../img/menu/close_black.png") center center no-repeat;
+}
 .zoomha-mobilemenu__show,
 .zoomha-mobilemenu__hide {
   position: absolute;
@@ -278,6 +283,53 @@ ul {
 }
 .zoomha-mobilemenu__hide {
   display: none;
+}
+.zoomha-mobilemenu__list_filters {
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+.zoomha-mobilemenu__item_filter {
+  padding: 15px 0;
+  border-bottom: 1px solid #919191;
+}
+.zoomha-mobilemenu__item_filter:last-child {
+  border-bottom: none;
+}
+.zoomha-mobilemenu__item_filter .zoomha-filters__label {
+  font-size: 20px;
+  line-height: 24px;
+}
+.zoomha-mobilemenu__item_filter .zoomha-filters__checkmark {
+  top: 4px;
+}
+.zoomha-mobilemenu__button {
+  width: 100%;
+}
+.zoomha-mobilemenu-category__list {
+  padding-top: 20px;
+}
+.zoomha-mobilemenu-category__item {
+  border-bottom: 1px solid #919191;
+}
+.zoomha-mobilemenu-category__link {
+  display: block;
+  color: #282828;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 24px;
+  padding: 20px 0;
+}
+.zoomha-mobilemenu-category__sublist {
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+.zoomha-mobilemenu-category__sublink {
+  display: block;
+  color: #282828;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 24px;
+  padding: 10px 0;
 }
 .zoomha-info {
   display: flex;
@@ -1296,6 +1348,8 @@ ul {
 @media screen and (max-width: 480px) {
   .zoomha-wrapper {
     width: 100%;
+    padding: 0 0 400px;
+    border: none;
   }
   .zoomha-top,
   .zoomha-menu,
@@ -1304,6 +1358,9 @@ ul {
   }
   .zoomha-header {
     padding: 0 10px;
+    position: relative;
+    width: 100%;
+    top: 0;
   }
   .zoomha-logo__link {
     margin: 0 auto 20px;
@@ -1429,8 +1486,10 @@ ul {
   }
   .zoomha-footer {
     display: block;
+    width: 100%;
     padding: 20px;
     text-align: center;
+    margin-top: -400px;
   }
   .zoomha-mobile {
     display: block;

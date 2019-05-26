@@ -1,5 +1,4 @@
 $( document ).ready(function() {
-    console.log('main.js')
     // var viewportMeta = $('#viewport-meta')
     //
     // var viewports = {
@@ -37,6 +36,7 @@ $( document ).ready(function() {
     }
 
     $( document ).on('click', '.zoomha-mobile__open', function () {
+        console.log('main open')
         openMobileMenu($mobilemenumain)
     })
 
@@ -53,6 +53,7 @@ $( document ).ready(function() {
     })
 
     $( document ).on('click', '.zoomha-mobilemenu__close', function () {
+        console.log('main close')
         closeMobileMenu()
     })
 
