@@ -2,12 +2,62 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8aea15f-b590-4c06-b7d2-f4f7c2641d64" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/fonts/montserrat/Montserrat-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/montserrat/Montserrat-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/montserrat/montserrat.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalog.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.styl" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/raleway/raleway.css" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/raleway/raleway.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/raleway/ralewayblack.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/raleway/ralewayblack.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/raleway/ralewayblack.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/raleway/ralewayblackitalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/raleway/ralewayblackitalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/raleway/ralewayblackitalic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/raleway/ralewaybolditalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/raleway/ralewaybolditalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/raleway/ralewaybolditalic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/raleway/ralewayextrabold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/raleway/ralewayextrabold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/raleway/ralewayextrabold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/raleway/ralewayextrabolditalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/raleway/ralewayextrabolditalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/raleway/ralewayextrabolditalic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/raleway/ralewayextralight.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/raleway/ralewayextralight.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/raleway/ralewayextralight.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/raleway/ralewayextralightitalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/raleway/ralewayextralightitalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/raleway/ralewayextralightitalic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/raleway/ralewayitalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/raleway/ralewayitalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/raleway/ralewayitalic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/raleway/ralewaylight.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/raleway/ralewaylight.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/raleway/ralewaylight.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/raleway/ralewaylightitalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/raleway/ralewaylightitalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/raleway/ralewaylightitalic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/raleway/ralewaymediumitalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/raleway/ralewaymediumitalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/raleway/ralewaymediumitalic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/raleway/ralewayregular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/raleway/ralewayregular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/raleway/ralewayregular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/raleway/ralewaysemibold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/raleway/ralewaysemibold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/raleway/ralewaysemibold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/raleway/ralewaysemibolditalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/raleway/ralewaysemibolditalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/raleway/ralewaysemibolditalic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/raleway/ralewaythin.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/raleway/ralewaythin.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/raleway/ralewaythin.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/raleway/ralewaythinitalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/raleway/ralewaythinitalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/raleway/ralewaythinitalic.woff2" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -39,8 +89,8 @@
       <file leaf-file-name="catalog.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/catalog.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="76" column="6" selection-start-line="76" selection-start-column="6" selection-end-line="94" selection-end-column="12" />
+            <state relative-caret-position="272">
+              <caret line="16" column="58" selection-start-line="16" selection-start-column="58" selection-end-line="16" selection-end-column="58" />
               <folding>
                 <element signature="n#ul#1;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -52,6 +102,33 @@
                 <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="museosanscyrl.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fonts/museosanscyrl/museosanscyrl.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="raleway.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fonts/raleway/raleway.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="montserrat.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fonts/montserrat/montserrat.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="28" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -72,22 +149,16 @@
       <file leaf-file-name="main.styl" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.styl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="256" column="32" selection-start-line="256" selection-start-column="32" selection-end-line="256" selection-end-column="32" />
+            <state relative-caret-position="61">
+              <caret line="950" column="37" lean-forward="true" selection-start-line="950" selection-start-column="37" selection-end-line="950" selection-end-column="37" />
               <folding>
-                <element signature="e#328#611#0" />
                 <element signature="e#624#693#0" />
                 <element signature="e#703#1199#0" />
-                <element signature="e#1208#1327#0" />
-                <element signature="e#1337#1743#0" />
                 <element signature="e#1753#2529#0" />
                 <element signature="e#2540#3344#0" />
-                <element signature="e#3356#3499#0" />
-                <element signature="e#3817#4435#0" />
                 <element signature="e#10041#11469#0" />
                 <element signature="e#11481#15147#0" />
                 <element signature="e#15161#15209#0" />
-                <element signature="e#15223#16668#0" />
                 <element signature="e#16679#16926#0" />
                 <element signature="e#16941#17375#0" />
                 <element signature="e#17387#17734#0" />
@@ -131,12 +202,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>__si</find>
-      <find>$count</find>
-      <find>zoomha-paginator__link</find>
-      <find>zoomha-product__size-txt</find>
-      <find>headerBasketCountAdd</find>
-      <find>debugg</find>
       <find>modal__button</find>
       <find>headerBasketCountRemove</find>
       <find>pagina</find>
@@ -158,9 +223,15 @@
       <find>-mobile</find>
       <find>zoomha-mobilemenu__button</find>
       <find>#&quot;&quot;</find>
-      <find>zoomha-mobile</find>
       <find>mobilemenu</find>
       <find>__hi</find>
+      <find>-leftco</find>
+      <find>leftcol</find>
+      <find>-pro</find>
+      <find>Raleway</find>
+      <find>zoomha-mobile</find>
+      <find>__bonus</find>
+      <find>-products</find>
     </findStrings>
     <replaceStrings>
       <replace>zoomha-product__subtitle</replace>
@@ -201,9 +272,11 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/page.html" />
         <option value="$PROJECT_DIR$/js/header.js" />
-        <option value="$PROJECT_DIR$/catalog.html" />
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/profile.html" />
+        <option value="$PROJECT_DIR$/fonts/raleway/raleway.css" />
+        <option value="$PROJECT_DIR$/fonts/montserrat/montserrat.css" />
+        <option value="$PROJECT_DIR$/catalog.html" />
         <option value="$PROJECT_DIR$/css/main.styl" />
       </list>
     </option>
@@ -247,6 +320,29 @@
             <path>
               <item name="zoomha" type="b2602c69:ProjectViewProjectNode" />
               <item name="zoomha" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="fonts" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="zoomha" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zoomha" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="fonts" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="montserrat" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="zoomha" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zoomha" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="fonts" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="museosanscyrl" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="zoomha" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zoomha" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="fonts" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="raleway" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="zoomha" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zoomha" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="img" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -282,11 +378,13 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/fonts/montserrat" />
       <recent name="$PROJECT_DIR$/img/menu" />
       <recent name="$PROJECT_DIR$/img" />
       <recent name="$PROJECT_DIR$/img/banner" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/fonts/montserrat" />
       <recent name="$PROJECT_DIR$/js" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -321,7 +419,7 @@
       <workItem from="1558694149429" duration="8590000" />
       <workItem from="1558784605548" duration="14012000" />
       <workItem from="1558805077257" duration="3829000" />
-      <workItem from="1558855759089" duration="8539000" />
+      <workItem from="1558855759089" duration="13073000" />
     </task>
     <task id="LOCAL-00001" summary="Add js">
       <created>1558700274044</created>
@@ -407,11 +505,18 @@
       <option name="project" value="LOCAL" />
       <updated>1558876506193</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Mobile menu fix">
+      <created>1558881560073</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1558881560073</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74012000" />
+    <option name="totallyTimeSpent" value="78546000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="952" extended-state="6" />
@@ -465,20 +570,10 @@
     <MESSAGE value="Add mobile styles" />
     <MESSAGE value="Add mobile menu" />
     <MESSAGE value="Reg mobile fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reg mobile fix" />
+    <MESSAGE value="Mobile menu fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mobile menu fix" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/profile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="154" selection-start-line="20" selection-start-column="154" selection-end-line="20" selection-end-column="154" />
-          <folding>
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -663,20 +758,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fonts/museosanscyrl/museosanscyrl.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fonts/raleway/raleway.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/404.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="502">
@@ -826,24 +907,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/catalog.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="76" column="6" selection-start-line="76" selection-start-column="6" selection-end-line="94" selection-end-column="12" />
-          <folding>
-            <element signature="n#ul#1;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#1;n#div#0;n#div#1;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#div#1;n#div#0;n#div#1;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#0;n#ul#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="695">
@@ -862,24 +925,57 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/fonts/museosanscyrl/museosanscyrl.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fonts/raleway/raleway.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="58" selection-start-line="16" selection-start-column="58" selection-end-line="16" selection-end-column="58" />
+          <folding>
+            <element signature="n#ul#1;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#1;n#div#0;n#div#1;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#1;n#div#0;n#div#1;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#0;n#ul#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fonts/montserrat/montserrat.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/main.styl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="256" column="32" selection-start-line="256" selection-start-column="32" selection-end-line="256" selection-end-column="32" />
+        <state relative-caret-position="61">
+          <caret line="950" column="37" lean-forward="true" selection-start-line="950" selection-start-column="37" selection-end-line="950" selection-end-column="37" />
           <folding>
-            <element signature="e#328#611#0" />
             <element signature="e#624#693#0" />
             <element signature="e#703#1199#0" />
-            <element signature="e#1208#1327#0" />
-            <element signature="e#1337#1743#0" />
             <element signature="e#1753#2529#0" />
             <element signature="e#2540#3344#0" />
-            <element signature="e#3356#3499#0" />
-            <element signature="e#3817#4435#0" />
             <element signature="e#10041#11469#0" />
             <element signature="e#11481#15147#0" />
             <element signature="e#15161#15209#0" />
-            <element signature="e#15223#16668#0" />
             <element signature="e#16679#16926#0" />
             <element signature="e#16941#17375#0" />
             <element signature="e#17387#17734#0" />
