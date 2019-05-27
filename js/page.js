@@ -24,7 +24,7 @@ $( document ).ready(function() {
             });
     }
 
-    setCountDown()
+    // setCountDown()
 
     $( document ).on('click', '.zoomha-product__button', function () {
 

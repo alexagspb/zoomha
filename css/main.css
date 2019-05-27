@@ -571,6 +571,10 @@ ul {
   display: flex;
   justify-content: space-between;
 }
+.zoomha-content_page {
+  padding-top: 40px;
+  margin-bottom: 80px;
+}
 .zoomha-title {
   font-family: Raleway;
   font-style: normal;
@@ -649,60 +653,78 @@ ul {
   padding: 18px 55px 0;
 }
 .zoomha-img {
-  flex-basis: 45%;
-  margin-right: 50px;
+  flex-basis: 46%;
 }
 .zoomha-img__item {
   max-width: 100%;
+  display: block;
+  margin-bottom: 28px;
+}
+.zoomha-img__description {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
 }
 .zoomha-price {
-  margin-bottom: 20px;
+  margin-bottom: 22px;
 }
 .zoomha-price__item {
   display: inline-block;
   vertical-align: middle;
   font-size: 42px;
   line-height: 50px;
-  margin-right: 20px;
+  margin-right: 15px;
   color: #ffcb08;
 }
 .zoomha-product {
-  flex-basis: 65%;
+  flex-basis: 49%;
 }
 .zoomha-product__title {
   font-size: 26px;
   line-height: 31px;
-  margin-bottom: 10px;
+  margin: -7px 0 4px;
 }
 .zoomha-product__id {
   font-size: 12px;
   line-height: 14px;
-  margin-bottom: 50px;
+  margin-bottom: 32px;
   color: #919191;
 }
 .zoomha-product__subtitle {
   font-size: 10px;
   line-height: 12px;
-  margin-bottom: 5px;
   text-transform: uppercase;
   color: #919191;
 }
 .zoomha-product__bonus {
   display: inline-block;
   vertical-align: middle;
-  padding: 5px;
+  padding: 8px 14px;
   background: #282828;
   color: #f4fbff;
   border-radius: 20px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  text-transform: uppercase;
 }
 .zoomha-product__format {
   display: inline-block;
   vertical-align: top;
-  margin-right: 20px;
+  margin-right: 51px;
+}
+.zoomha-product__format-item {
+  margin-top: 12px;
 }
 .zoomha-product__combination {
   font-size: 14px;
   line-height: 17px;
+  margin-left: 6px;
 }
 .zoomha-product__size {
   display: inline-block;
@@ -712,6 +734,8 @@ ul {
 .zoomha-product__size-list {
   display: flex;
   justify-content: space-between;
+  margin-top: 8px;
+  width: 105px;
 }
 .zoomha-product__size-item {
   font-size: 16px;
@@ -730,8 +754,11 @@ ul {
   border: 1px solid #ffcb08;
 }
 .zoomha-product__button {
-  width: 200px;
-  margin: 20px 0;
+  width: 278px;
+  height: 50px;
+  font-size: 18px;
+  line-height: 35px;
+  margin-top: 38px;
 }
 .zoomha-product__button_added {
   background: #e5e5e5;
