@@ -585,6 +585,7 @@ ul {
 }
 .zoomha-title_center {
   text-align: center;
+  margin: 33px 0 8px 0;
 }
 .zoomha-subtitle {
   font-family: Raleway;
@@ -1001,6 +1002,7 @@ ul {
 }
 .zoomha-basket__title {
   font-size: 24px;
+  margin-bottom: 3px;
 }
 .zoomha-basket__title-num {
   font-size: 24px;
@@ -1089,18 +1091,18 @@ ul {
   background: #e5e5e5;
 }
 .zoomha-choose {
-  margin: 20px 0;
+  margin: 56px 0 17px;
 }
 .zoomha-choose__title {
   font-size: 24px;
-  margin-bottom: 20px;
+  margin-bottom: 18px;
 }
 .zoomha-choose__list {
   display: flex;
   justify-content: space-between;
 }
 .zoomha-choose__item {
-  flex-basis: 15%;
+  flex-basis: 19%;
   font-size: 12px;
   background: #f4fbff;
 }
@@ -1108,24 +1110,25 @@ ul {
   text-decoration: none;
   display: block;
   color: #282828;
-  padding: 60px 20px 20px;
+  padding: 68px 21px 16px;
+  line-height: 14px;
   height: 100%;
   box-sizing: border-box;
 }
 .zoomha-choose__link_card {
-  background: url("../img/payment/card.png") center 15px no-repeat;
+  background: url("../img/payment/card.png") center 18px no-repeat;
 }
 .zoomha-choose__link_qiwi {
-  background: url("../img/payment/qiwi.png") center 10px no-repeat;
+  background: url("../img/payment/qiwi.png") center 12px no-repeat;
 }
 .zoomha-choose__link_webmoney {
-  background: url("../img/payment/wm.png") center 5px no-repeat;
+  background: url("../img/payment/wm.png") center 0 no-repeat;
 }
 .zoomha-choose__link_yad {
-  background: url("../img/payment/yad.png") center 10px no-repeat;
+  background: url("../img/payment/yad.png") center 3px no-repeat;
 }
 .zoomha-choose__link_paypal {
-  background: url("../img/payment/paypal.png") center 25px no-repeat;
+  background: url("../img/payment/paypal.png") center 17px no-repeat;
 }
 .zoomha-back {
   font-family: Raleway;
@@ -1134,6 +1137,9 @@ ul {
   line-height: 16px;
   color: #0398d8;
   text-transform: uppercase;
+}
+.zoomha-back:before {
+  content: '←';
 }
 .zoomha-back:hover {
   text-decoration: none;
