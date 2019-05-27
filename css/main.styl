@@ -701,6 +701,11 @@ ul {
       text-align: center;
       margin: 33px 0 8px 0;
     }
+
+    &_profile {
+      text-align: center;
+      margin: 33px 0 44px;
+    }
   }
 
   &-subtitle {
@@ -765,7 +770,7 @@ ul {
     }
   }
 
-  &-page, &-catalog {
+  &-page, &-catalog, &-profile {
     padding: 18px 55px 0;
   }
 
@@ -917,8 +922,12 @@ ul {
       &_profile {
         margin-right: 2%;
         margin-bottom: 3%;
-        flex-basis: 31%;
-        max-width: 31%;
+        flex-basis: 32%;
+        max-width: 32%;
+
+        &:nth-of-type(3n) {
+          margin-right: 0
+        }
       }
 
       &_eagle {
@@ -954,10 +963,22 @@ ul {
       }
     }
 
+    &__spend {
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 26px;
+      line-height: 31px;
+      margin-bottom: 20px
+    }
+
     &__title {
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
       font-size: 24px;
-      line-height: 28px;
-      margin-bottom: 10px
+      line-height: 27px;
+      margin-bottom: 10px;
     }
 
     &__subtitle {
@@ -972,7 +993,7 @@ ul {
       position: absolute
       bottom: 0
       left: 0
-      padding: 10px 20px
+      padding: 13px 22px
       color $white
       border-radius: 0px 20px;
       font-family: Raleway;
@@ -1019,7 +1040,7 @@ ul {
       font-weight: 500;
       font-size: 20px;
       line-height: 23px;
-      margin-bottom: 10px
+      margin-bottom: 4px
 
       &-num {
         font-weight 700
@@ -1030,7 +1051,7 @@ ul {
     &__txt {
       font-size: 14px;
       line-height: 17px;
-      margin-bottom: 20px
+      margin-bottom: 30px
     }
 
     &__link {

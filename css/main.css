@@ -587,6 +587,10 @@ ul {
   text-align: center;
   margin: 33px 0 8px 0;
 }
+.zoomha-title_profile {
+  text-align: center;
+  margin: 33px 0 44px;
+}
 .zoomha-subtitle {
   font-family: Raleway;
   font-style: normal;
@@ -640,7 +644,8 @@ ul {
   background: url("../img/uncheck.png") no-repeat;
 }
 .zoomha-page,
-.zoomha-catalog {
+.zoomha-catalog,
+.zoomha-profile {
   padding: 18px 55px 0;
 }
 .zoomha-img {
@@ -767,8 +772,11 @@ ul {
 .zoomha-bonuses__item_profile {
   margin-right: 2%;
   margin-bottom: 3%;
-  flex-basis: 31%;
-  max-width: 31%;
+  flex-basis: 32%;
+  max-width: 32%;
+}
+.zoomha-bonuses__item_profile:nth-of-type(3n) {
+  margin-right: 0;
 }
 .zoomha-bonuses__item_eagle {
   background: url("../img/bonus/bonus2.png") no-repeat right center, linear-gradient(226.58deg, #26bd00 4.63%, rgba(255,255,255,0) 91.01%), #3fda09;
@@ -794,9 +802,20 @@ ul {
 .zoomha-bonuses__item_combination {
   background: url("../img/bonus/bonus8.png") no-repeat right center, linear-gradient(226.58deg, #ffc700 4.63%, rgba(255,255,255,0) 91.01%), #ffd32f;
 }
+.zoomha-bonuses__spend {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  margin-bottom: 20px;
+}
 .zoomha-bonuses__title {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
   font-size: 24px;
-  line-height: 28px;
+  line-height: 27px;
   margin-bottom: 10px;
 }
 .zoomha-bonuses__subtitle {
@@ -810,7 +829,7 @@ ul {
   position: absolute;
   bottom: 0;
   left: 0;
-  padding: 10px 20px;
+  padding: 13px 22px;
   color: #f4fbff;
   border-radius: 0px 20px;
   font-family: Raleway;
@@ -848,7 +867,7 @@ ul {
   font-weight: 500;
   font-size: 20px;
   line-height: 23px;
-  margin-bottom: 10px;
+  margin-bottom: 4px;
 }
 .zoomha-bonuses__total-num {
   font-weight: 700;
@@ -857,7 +876,7 @@ ul {
 .zoomha-bonuses__txt {
   font-size: 14px;
   line-height: 17px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 .zoomha-bonuses__link {
   color: #0398d8;
