@@ -47,9 +47,6 @@ ul {
   display: block;
   background: url("../img/logo.png") 0 center no-repeat;
 }
-.zoomha-logo__link_header {
-  border-radius: 50%;
-}
 .zoomha-logo__link_header:after {
   content: '';
   height: 37px;
@@ -953,10 +950,13 @@ ul {
   flex-basis: 100%;
   padding: 9px;
 }
+.zoomha-links {
+  padding: 10px;
+}
 .zoomha-links__item {
   color: #f4fbff;
   display: block;
-  margin-bottom: 10px;
+  margin: 0 0 3px 54px;
   font-family: Raleway;
   font-weight: 500;
   font-size: 14px;
@@ -1182,16 +1182,17 @@ ul {
   background: url("../img/bee.png") 0 0 no-repeat;
 }
 .zoomha-error {
-  width: 700px;
+  width: 370px;
   height: 300px;
-  margin: 50px auto;
-  padding: 200px 0 0 0;
+  margin: 132px auto;
+  padding: 165px 0 0 0;
   text-align: center;
   background: url("../img/404.png") top center no-repeat;
 }
 .zoomha-error__title {
   font-size: 24px;
-  margin-bottom: 50px;
+  margin-bottom: 46px;
+  letter-spacing: 3.5px;
 }
 .zoomha-error__txt {
   font-size: 14px;
@@ -1206,7 +1207,7 @@ ul {
 .zoomha-footer {
   display: flex;
   justify-content: space-between;
-  padding: 22px 55px;
+  padding: 29px 55px;
   width: 1280px;
   margin: 0 auto;
   box-sizing: border-box;
@@ -1226,7 +1227,7 @@ ul {
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
-  margin-bottom: 20px;
+  margin: 10px 0 20px 27px;
 }
 .zoomha-email:hover {
   text-decoration: none;
@@ -1241,16 +1242,20 @@ ul {
   line-height: 14px;
   text-align: center;
   text-transform: uppercase;
-  padding: 5px 10px;
+  padding: 7px 10px;
+  position: relative;
+  left: 20px;
 }
 .zoomha-payments {
   display: flex;
-  flex-basis: 20%;
+  flex-basis: 24%;
   flex-wrap: wrap;
+  padding: 10px 5px;
+  box-sizing: border-box;
   align-items: center;
 }
 .zoomha-payments__item {
-  margin-right: 10px;
+  margin-right: 20px;
 }
 .zoomha-payments__item_visa {
   width: 63px;
