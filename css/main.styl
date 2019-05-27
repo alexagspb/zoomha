@@ -1236,41 +1236,44 @@ ul {
   }
 
   &-goods {
+    &__list {
+      margin-top: 23px;
+    }
 
     &__item {
       border 1px solid $grey
-      display: flex
-      justify-content space-between
+      display: flex;
+      justify-content: space-between;
       align-items: center;
-      padding: 10px 20px
+      padding: 9px 28px;
     }
 
     &__img {
-      width: 100px
-      flex-basis 100px
-      margin-right: 20px
+      min-width: 114px;
+      margin-right: 31px;
+      text-align: center
     }
 
     &__title {
-      flex-basis 30%
       text-align: left
+      width: 380px
     }
 
     &__txt {
-      flex-basis 25%
       text-align: left
       font-size: 14px;
+      width: 200px
     }
 
     &__num {
-      flex-basis 25%
-      display: flex
-      justify-content center
+      display: flex;
+      justify-content: center;
       align-items: center;
+      width: 330px;
     }
 
     &__total {
-      flex-basis 25%
+      width: 200px
     }
 
     &__price {
@@ -1306,11 +1309,11 @@ ul {
       text-align: center;
       border-radius: 30px;
       border: 1px solid $grey;
-      height: 24px;
-      width: 30px;
-      line-height: 24px;
-      margin: 0 20px;
-      cursor pointer
+      height: 18px;
+      width: 22px;
+      line-height: 17px;
+      margin: 0;
+      cursor: pointer;
 
       &:hover {
         background: $grey
@@ -1386,7 +1389,7 @@ ul {
     }
   }
   &-order {
-    margin: 20px 0
+    margin: 23px 0
 
     &__item {
       display: flex;
@@ -1401,7 +1404,7 @@ ul {
     &__price {
       font-size: 24px;
       line-height: 29px;
-      width: 100px;
+      width: 110px;
       text-align: right;
     }
 
@@ -1409,14 +1412,18 @@ ul {
       font-size: 12px;
       line-height: 14px;
       text-transform: uppercase;
-      width: 70px;
-      padding-left: 12px;
+      width: 76px;
+      padding-left: 16px;
+      margin-top: 4px;
       color $orange
     }
 
     &__buy {
-      width: 185px;
-      margin: 20px 0 0 auto;
+      width: 238px;
+      height: 48px;
+      line-height: 34px;
+      font-size: 18px;
+      margin: 17px 0 0 auto;
       text-transform: uppercase;
     }
   }
@@ -1762,6 +1769,7 @@ ul {
     }
 
     &-goods {
+
       &__item {
         display: block
         position: relative

@@ -62,7 +62,6 @@
       <div class="zoomha-logo">
         <a href="/" class="zoomha-logo__link zoomha-logo__link_header"></a>
       </div>
-
       <ul class="zoomha-info">
         <li class="zoomha-info__item">
           <a href="" class="zoomha-info__link">Бонусы <span class="zoomha-info__bonus">1200</span></a>
@@ -71,9 +70,29 @@
           <a href="" class="zoomha-info__link">История заказов</a>
         </li>
         <li class="zoomha-info__item">
-          <a href="basket.html" class="zoomha-info__link">Корзина <span class="zoomha-info__count zoomha-info__count_active">3</span></a>
+          <a href="" class="zoomha-info__link">Корзина <span class="zoomha-info__count"></span></a>
         </li>
       </ul>
+
+      <div class="zoomha-mobile">
+        <div class="zoomha-mobile__basket"></div>
+        <div class="zoomha-mobile__open"></div>
+        <div class="zoomha-mobilemenu zoomha-mobilemenu_main">
+          <div class="zoomha-mobilemenu__close"></div>
+          <ul class="zoomha-mobilemenu__list">
+            <li class="zoomha-mobilemenu__item">Главная</li>
+            <li class="zoomha-mobilemenu__item">Каталог</li>
+            <li class="zoomha-mobilemenu__item">О сервисе</li>
+            <li class="zoomha-mobilemenu__item">О розыгрышах</li>
+          </ul>
+          <div class="zoomha-mobilemenu__title">Личный кабинет</div>
+          <ul class="zoomha-mobilemenu__list">
+            <li class="zoomha-mobilemenu__item"><a href="#login" rel="modal:open" class="zoomha-mobilemenu__link">Вход</a></li>
+            <li class="zoomha-mobilemenu__item"><a href="#reg" rel="modal:open" class="zoomha-mobilemenu__link">Регистрация</a></li>
+          </ul>
+          <div class="zoomha-mobilemenu__lang">English version</div>
+        </div>
+      </div>
     </header>
 
   <div class="zoomha-basket">
@@ -92,7 +111,10 @@
 
     <ul class="zoomha-goods__list">
       <li class="zoomha-goods__item">
-        <img src="img/goods/goods1.png" alt="" class="zoomha-goods__img">
+        <div class="zoomha-goods__img">
+          <img src="img/goods/goods1.png" alt="">
+        </div>
+
         <div class="zoomha-goods__title">Boxed Water Is Better</div>
         <div class="zoomha-goods__txt">
           <div class="zoomha-goods__description">Изображение, JPEG</div>
@@ -113,7 +135,9 @@
         <div class="zoomha-goods__close">×</div>
       </li>
       <li class="zoomha-goods__item">
-        <img src="img/goods/goods2.png" alt="" class="zoomha-goods__img">
+        <div class="zoomha-goods__img">
+          <img src="img/goods/goods2.png" alt="">
+        </div>
         <div class="zoomha-goods__title">Green plant near the white wall</div>
         <div class="zoomha-goods__txt">
           <div class="zoomha-goods__description">Изображение, JPEG</div>
@@ -134,7 +158,9 @@
         <div class="zoomha-goods__close">×</div>
       </li>
       <li class="zoomha-goods__item">
-        <img src="img/goods/goods3.png" alt="" class="zoomha-goods__img">
+        <div class="zoomha-goods__img">
+          <img src="img/goods/goods3.png" alt="">
+        </div>
         <div class="zoomha-goods__title">Boxed Water Is Better</div>
         <div class="zoomha-goods__txt">
           <div class="zoomha-goods__description">Изображение, JPEG</div>
@@ -172,6 +198,7 @@
     </div>
 
   </div>
+  </div>
 
   <footer class="zoomha-footer">
     <div class="zoomha-logo">
@@ -197,7 +224,7 @@
       <div class="zoomha-payments__item zoomha-payments__item_wm"></div>
     </div>
   </footer>
-  </div>
+
 
   <div id="login" class="modal">
     <div class="modal__title">Вход в личный кабинет</div>
