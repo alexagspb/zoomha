@@ -584,8 +584,13 @@ ul {
   margin-bottom: 19px;
 }
 .zoomha-title_bonuses {
-  font-weight: 600;
+  margin-bottom: 26px;
   text-align: center;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 35px;
 }
 .zoomha-title_center {
   text-align: center;
@@ -767,8 +772,8 @@ ul {
 .zoomha-bonuses_page {
   position: relative;
   background: #f3f6f7;
-  padding: 20px 75px 20px;
-  margin: 0 -55px;
+  padding: 53px 54px 53px;
+  margin: 58px -55px 0;
 }
 .zoomha-bonuses_page:after {
   content: '';
