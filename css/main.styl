@@ -91,7 +91,7 @@ ul {
     width: 1280px;
     top: 0;
     box-sizing: border-box;
-    z-index: 3
+    z-index: 4
   }
 
   &-lang {
@@ -244,21 +244,21 @@ ul {
 
     &__basket {
       position: absolute;
-      top: 15px;
-      right: 55px;
-      width: 20px;
-      height: 20px;
-      cursor pointer
-      background: url(../img/basket.png) center center no-repeat;
+      top: 10px;
+      right: 86px;
+      width: 30px;
+      height: 30px;
+      cursor: pointer;
+      background: url(../img/basket_mobile.png) center center no-repeat;
     }
 
     &__open {
       position: absolute;
-      top: 15px;
-      right: 5px;
-      width: 20px;
+      top: 18px;
+      right: 15px;
+      width: 30px;
       height: 20px;
-      cursor pointer
+      cursor: pointer;
       background: url(../img/menu/menu.png) center center no-repeat;
     }
   }
@@ -1724,30 +1724,39 @@ ul {
 
     &-logo {
       &__link {
-        margin: 0 auto 20px;
+        margin-left: 7px
+
+        &_footer {
+          margin: 10px auto 0px;
+        }
       }
     }
 
-    &-mainbanner { //todo
+    &-mainbanner {
       overflow: hidden;
+
       &__img {
-        max-width 100%
+        height: 225px
       }
     }
 
     &-about {
-      display: block
-      padding: 20px
+      display: block;
+      padding: 42px 17px;
 
       &__item {
         &_first {
           text-align: left
         }
       }
+
+      &__text {
+        margin: 7px 0 18px;
+      }
     }
 
     &-shop {
-      margin: 0
+      margin: 31px 0 33px;
 
       &__img  {
         max-width 100%
@@ -1755,11 +1764,25 @@ ul {
     }
 
     &-popular {
-      padding: 20px
+      padding: 43px 17px 31px;
+    }
+
+    &-subtitle {
+      &_popular {
+        text-align: center
+      }
+    }
+
+    &-links {
+      margin: 29px 0 30px;
+
+      &__item {
+        margin: 0 0 3px 0;
+      }
     }
 
     &-catalog {
-      padding: 20px
+      padding: 17px
     }
 
     &-banners {
@@ -1772,6 +1795,26 @@ ul {
       &__img {
         width: 100%
       }
+    }
+
+    &-email {
+      margin: 10px 0 20px 0;
+    }
+
+    &-payments {
+      justify-content: center;
+
+      &__item {
+        margin: 0 10px;
+      }
+    }
+
+    &-support {
+      left: 0;
+      width: 200px;
+      height: 25px;
+      line-height: 28px;
+      margin: 0 auto 60px;
     }
 
     &-content {
@@ -1797,18 +1840,33 @@ ul {
 
       &__item {
         max-width 100%
+        margin-bottom: 20px
+      }
+
+      &__buy {
+        padding: 9px 0px 5px;
+      }
+
+      &__bonus {
+        padding: 8px 22px;
+        right: 6px;
+      }
+
+      &__basket {
+        width: 100px;
+        height: 35px;
       }
     }
 
     &-page {
-      padding: 20px
+      padding: 17px
     }
 
     &-bonuses {
 
       &_page {
-        margin: 0 -20px;
-        padding: 20px;
+        margin: 0 -17px;
+        padding: 17px;
       }
 
       &__list {
@@ -1817,12 +1875,12 @@ ul {
 
       &__item {
         max-width 100%
-        margin-bottom: 20px
+        margin-bottom: 17px
       }
     }
 
     &-basket {
-      padding: 20px
+      padding: 17px
     }
 
     &-goods {
