@@ -1468,7 +1468,7 @@ ul {
   .zoomha-popular {
     padding: 43px 17px 31px;
   }
-  .zoomha-subtitle_popular {
+  .zoomha-subtitle {
     text-align: center;
   }
   .zoomha-links {
@@ -1510,6 +1510,10 @@ ul {
   .zoomha-content {
     display: block;
   }
+  .zoomha-content_page {
+    padding-top: 8px;
+    margin-bottom: 52px;
+  }
   .zoomha-leftcol {
     display: none;
   }
@@ -1541,7 +1545,60 @@ ul {
     height: 35px;
   }
   .zoomha-page {
-    padding: 17px;
+    padding: 33px 17px;
+  }
+  .zoomha-product__title {
+    display: none;
+  }
+  .zoomha-product__title_mobile {
+    display: block;
+    font-size: 22px;
+    line-height: 26px;
+  }
+  .zoomha-product__subtitle {
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .zoomha-product__id {
+    display: none;
+  }
+  .zoomha-product__id_mobile {
+    display: block;
+    margin-bottom: 22px;
+  }
+  .zoomha-product__format {
+    margin-right: 32px;
+  }
+  .zoomha-product__format-item {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .zoomha-product__combination {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .zoomha-product__size-list {
+    margin-top: 3px;
+    width: 150px;
+  }
+  .zoomha-product__size-item {
+    width: 43px;
+    height: 43px;
+    font-size: 20px;
+    line-height: 43px;
+  }
+  .zoomha-product__button {
+    width: 100%;
+    margin-top: 14px;
+  }
+  .zoomha-price {
+    margin-bottom: 30px;
+  }
+  .zoomha-img__item {
+    margin-bottom: 18px;
+  }
+  .zoomha-img__description {
+    margin-bottom: 33px;
   }
   .zoomha-bonuses_page {
     margin: 0 -17px;

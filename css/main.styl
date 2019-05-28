@@ -1776,9 +1776,7 @@ ul {
     }
 
     &-subtitle {
-      &_popular {
-        text-align: center
-      }
+      text-align: center
     }
 
     &-links {
@@ -1829,6 +1827,11 @@ ul {
 
     &-content {
       display: block
+
+      &_page {
+        padding-top: 8px
+        margin-bottom: 52px
+      }
     }
 
     &-leftcol {
@@ -1871,7 +1874,75 @@ ul {
     }
 
     &-page {
-      padding: 17px
+      padding: 33px 17px
+    }
+
+    &-product {
+      &__title {
+        display: none
+
+        &_mobile {
+          display: block;
+          font-size: 22px;
+          line-height: 26px;
+        }
+      }
+      &__subtitle {
+        font-size: 12px;
+        line-height: 14px;
+      }
+      &__id {
+        display: none
+
+        &_mobile {
+          display: block
+          margin-bottom: 22px
+        }
+      }
+      &__format {
+        margin-right: 32px;
+
+        &-item {
+          font-size: 20px;
+          line-height: 24px;
+        }
+      }
+
+      &__combination {
+        font-size: 16px;
+        line-height: 19px;
+      }
+
+      &__size {
+        &-list {
+          margin-top: 3px;
+          width: 150px;
+        }
+        &-item {
+          width: 43px;
+          height: 43px;
+          font-size: 20px;
+          line-height: 43px;
+        }
+      }
+      &__button {
+        width: 100%;
+        margin-top: 14px;
+      }
+    }
+
+    &-price {
+      margin-bottom: 30px
+    }
+
+    &-img {
+      &__item {
+        margin-bottom: 18px
+      }
+
+      &__description {
+        margin-bottom: 33px;
+      }
     }
 
     &-bonuses {
