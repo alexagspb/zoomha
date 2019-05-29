@@ -11,6 +11,7 @@ $( document ).ready(function() {
     }
 
     $( document ).on('click', '.zoomha-filters__button', function () {
+        $( document ).trigger('showLoader');
 
         $.post( "example.php", function(e) {
             console.log('catalog success')
@@ -23,6 +24,7 @@ $( document ).ready(function() {
             })
             .always(function() {
                 console.log('catalog always')
+                $( document ).trigger('hideLoader');
                 updateCatalog()
                 updatePaginator()
             });
@@ -30,6 +32,7 @@ $( document ).ready(function() {
 
     $( document ).on('click', '.zoomha-paginator__link', function (e) {
         e.preventDefault()
+        $( document ).trigger('showLoader');
 
         $.post( "example.php", function(e) {
             console.log('paginator success')
@@ -42,6 +45,7 @@ $( document ).ready(function() {
             })
             .always(function() {
                 console.log('paginator always')
+                $( document ).trigger('hideLoader');
                 updateCatalog()
                 updatePaginator()
             });

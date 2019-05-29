@@ -20,6 +20,7 @@ $( document ).ready(function() {
 
     $( document ).on('click', '.auth__button', function () {
 
+        $( document ).trigger('showLoader');
         $.post( "example.php", function(e) {
             console.log('auth success')
         })
@@ -31,6 +32,7 @@ $( document ).ready(function() {
             })
             .always(function() {
                 console.log('auth always')
+                $( document ).trigger('hideLoader');
                 $.modal.close();
                 login()
             });

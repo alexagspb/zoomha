@@ -10,6 +10,7 @@ $( document ).ready(function() {
 
     $( document ).on('click', '.zoomha-goods__btn', function () {
         var self = $(this)
+        $( document ).trigger('showLoader');
 
         $.post( "example.php", function(e) {
             console.log('basket remove success')
@@ -22,6 +23,7 @@ $( document ).ready(function() {
             })
             .always(function() {
                 console.log('basket remove always')
+                $( document ).trigger('hideLoader');
 
                 var fakeResult = {
                     count: 5,
@@ -55,6 +57,7 @@ $( document ).ready(function() {
 
     $( document ).on('click', '.zoomha-products__basket', function () {
         var self = $(this)
+        $( document ).trigger('showLoader');
 
         if (!self.hasClass('zoomha-products__basket_added')) {
             $.post( "example.php", function(e) {
@@ -68,6 +71,7 @@ $( document ).ready(function() {
                 })
                 .always(function() {
                     console.log('basket add always')
+                    $( document ).trigger('hideLoader');
                     self.addClass('zoomha-products__basket_added')
                     $( document ).trigger('headerBasketCountAdd');
                 });
@@ -76,6 +80,7 @@ $( document ).ready(function() {
 
     $( document ).on('click', '.zoomha-goods__close', function () {
         var self = $(this)
+        $( document ).trigger('showLoader');
 
         $.post( "example.php", function(e) {
             console.log('basket remove success')
@@ -88,6 +93,7 @@ $( document ).ready(function() {
             })
             .always(function() {
                 console.log('basket remove always')
+                $( document ).trigger('hideLoader');
                 self.closest('.zoomha-goods__item').slideUp()
                 $( document ).trigger('headerBasketCountRemove');
             });
@@ -98,6 +104,7 @@ $( document ).ready(function() {
     })
 
     $( document ).on('click', '.buy__button', function () {
+        $( document ).trigger('showLoader');
         $.post( "example.php", function(e) {
             console.log('buy button success')
         })
@@ -109,6 +116,7 @@ $( document ).ready(function() {
             })
             .always(function() {
                 console.log('buy button always')
+                $( document ).trigger('hideLoader');
                 $.modal.close();
             });
     })

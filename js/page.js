@@ -29,6 +29,8 @@ $( document ).ready(function() {
     $( document ).on('click', '.zoomha-product__button', function () {
 
         if (!$button.hasClass('zoomha-product__button_added')) {
+            $( document ).trigger('showLoader');
+
             $.post( "example.php", function(e) {
                 console.log('page success')
             })
@@ -40,6 +42,7 @@ $( document ).ready(function() {
                 })
                 .always(function() {
                     console.log('page always')
+                    $( document ).trigger('hideLoader');
                     updateButton()
                     $( document ).trigger('headerBasketCountAdd');
                 });
@@ -50,6 +53,8 @@ $( document ).ready(function() {
         var self = $(this)
 
         if (!self.hasClass('zoomha-product__size-item_active')) {
+            $( document ).trigger('showLoader');
+
             $.post( "example.php", function(e) {
                 console.log('size success')
             })
@@ -61,6 +66,7 @@ $( document ).ready(function() {
                 })
                 .always(function() {
                     console.log('size always')
+                    $( document ).trigger('hideLoader');
                     var fakeResult = {
                         price: 1000,
                         bonus: 200,
