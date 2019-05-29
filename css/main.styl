@@ -164,7 +164,7 @@ ul {
       left: -8px;
       width: 145px;
       background: $yellow
-      padding: 10px;
+      padding: 10px 10px 0;
       z-index: 1;
     }
 
@@ -179,7 +179,7 @@ ul {
     }
 
     &__item {
-      margin-bottom: 5px
+      margin-bottom: 10px
     }
 
     &__link {
@@ -1741,6 +1741,13 @@ ul {
       }
     }
   }
+
+  a.close-modal {
+    background: url(../img/menu/close_black.png) center center no-repeat;
+    background-size: 15px;
+    top: 0px;
+    right: 0px;
+  }
 }
 
 
@@ -1775,6 +1782,82 @@ ul {
 
     &-mainbanner {
       overflow: hidden;
+
+      &:after {
+        bottom: -133px;
+        left: 36px;
+        background-size: 140px;
+      }
+
+      &__subtitle {
+        top: 18px;
+        left: 52px;
+        font-size: 14px;
+      }
+
+      &__title {
+        top: 42px;
+        left: 16px;
+        font-size: 22px;
+      }
+
+      &__item {
+        width: 68px;
+        height: 45px;
+        padding-top: 25px;
+        font-size: 8px;
+        line-height: 11px;
+        border 2px solid $white
+
+        &_one {
+          bottom: 20px;
+          left: 10px;
+
+          &:after {
+            top: -14px;
+            left: 59px;
+            width: 100px;
+            height: 100px;
+            background-size: 20px;
+
+          }
+        }
+
+        &_two {
+          bottom: 74px;
+          left: 94px;
+
+          &:after {
+            top: 12px;
+            left: 71px;
+            width: 23px;
+            height: 23px;
+            background-size: 23px;
+          }
+        }
+
+        &_three {
+          bottom: 74px;
+          left: 190px;
+
+          &:after {
+            top: 42px;
+            left: 72px;
+            width: 20px;
+            height: 20px;
+            background-size: 20px;
+          }
+        }
+
+        &_four {
+          bottom: 21px;
+          left: 274px;
+        }
+      }
+
+      &__num {
+        margin-top: 9px
+      }
 
       &__img {
         height: 225px

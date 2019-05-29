@@ -128,7 +128,7 @@ ul {
   left: -8px;
   width: 145px;
   background: #ffcb08;
-  padding: 10px;
+  padding: 10px 10px 0;
   z-index: 1;
 }
 .zoomha-login__title {
@@ -141,7 +141,7 @@ ul {
   margin-bottom: 5px;
 }
 .zoomha-login__item {
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 .zoomha-login__link {
   font-family: Raleway;
@@ -1450,6 +1450,12 @@ ul {
 .modal-social__link_gp {
   background: url("../img/gp.png") center center no-repeat;
 }
+.modal a.close-modal {
+  background: url("../img/menu/close_black.png") center center no-repeat;
+  background-size: 15px;
+  top: 0px;
+  right: 0px;
+}
 @media screen and (max-width: 480px) {
   .zoomha-wrapper {
     width: 100%;
@@ -1475,6 +1481,69 @@ ul {
   }
   .zoomha-mainbanner {
     overflow: hidden;
+  }
+  .zoomha-mainbanner:after {
+    bottom: -133px;
+    left: 36px;
+    background-size: 140px;
+  }
+  .zoomha-mainbanner__subtitle {
+    top: 18px;
+    left: 52px;
+    font-size: 14px;
+  }
+  .zoomha-mainbanner__title {
+    top: 42px;
+    left: 16px;
+    font-size: 22px;
+  }
+  .zoomha-mainbanner__item {
+    width: 68px;
+    height: 45px;
+    padding-top: 25px;
+    font-size: 8px;
+    line-height: 11px;
+    border: 2px solid #f4fbff;
+  }
+  .zoomha-mainbanner__item_one {
+    bottom: 20px;
+    left: 10px;
+  }
+  .zoomha-mainbanner__item_one:after {
+    top: -14px;
+    left: 59px;
+    width: 100px;
+    height: 100px;
+    background-size: 20px;
+  }
+  .zoomha-mainbanner__item_two {
+    bottom: 74px;
+    left: 94px;
+  }
+  .zoomha-mainbanner__item_two:after {
+    top: 12px;
+    left: 71px;
+    width: 23px;
+    height: 23px;
+    background-size: 23px;
+  }
+  .zoomha-mainbanner__item_three {
+    bottom: 74px;
+    left: 190px;
+  }
+  .zoomha-mainbanner__item_three:after {
+    top: 42px;
+    left: 72px;
+    width: 20px;
+    height: 20px;
+    background-size: 20px;
+  }
+  .zoomha-mainbanner__item_four {
+    bottom: 21px;
+    left: 274px;
+  }
+  .zoomha-mainbanner__num {
+    margin-top: 9px;
   }
   .zoomha-mainbanner__img {
     height: 225px;
