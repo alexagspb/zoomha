@@ -1545,7 +1545,7 @@ ul {
     height: 35px;
   }
   .zoomha-page {
-    padding: 33px 17px;
+    padding: 33px 17px 0;
   }
   .zoomha-product__title {
     display: none;
@@ -1601,8 +1601,8 @@ ul {
     margin-bottom: 33px;
   }
   .zoomha-bonuses_page {
-    margin: 0 -17px;
-    padding: 17px;
+    margin: 69px -17px 0;
+    padding: 40px 17px;
   }
   .zoomha-bonuses__list {
     display: block;
@@ -1611,37 +1611,89 @@ ul {
     max-width: 100%;
     margin-bottom: 17px;
   }
+  .zoomha-title_center {
+    font-weight: 700;
+    margin: 14px 0 0px;
+  }
   .zoomha-basket {
-    padding: 17px;
+    padding: 33px 17px;
+  }
+  .zoomha-basket__title {
+    font-size: 20px;
+    margin: 14px 0 0px;
+  }
+  .zoomha-goods__list {
+    margin: 8px -18px 10px;
   }
   .zoomha-goods__item {
     display: block;
     position: relative;
+    padding: 18px;
   }
   .zoomha-goods__title {
     position: absolute;
-    top: 10px;
-    left: 140px;
-    padding-right: 40px;
+    top: 15px;
+    left: 98px;
+    max-width: 220px;
+  }
+  .zoomha-goods__img {
+    min-width: auto;
+    max-width: 72px;
+    text-align: left;
+  }
+  .zoomha-goods__img img {
+    max-width: 100%;
   }
   .zoomha-goods__close {
     position: absolute;
-    top: 10px;
-    right: -10px;
+    top: 12px;
+    right: 18px;
     width: 24px;
+    height: 24px;
+    line-height: 22px;
   }
   .zoomha-goods__txt {
     position: absolute;
     top: 50px;
-    left: 140px;
+    left: 98px;
   }
   .zoomha-goods__total {
-    margin: 10px 0 30px 120px;
+    margin: 10px 0 30px 80px;
   }
   .zoomha-goods__num {
     position: absolute;
-    bottom: 5px;
-    left: 140px;
+    bottom: 10px;
+    left: 90px;
+    width: auto;
+  }
+  .zoomha-goods__btn {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 24px;
+  }
+  .zoomha-goods__count {
+    font-size: 20px;
+  }
+  .zoomha-choose {
+    margin: 29px 0 0;
+  }
+  .zoomha-choose__title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .zoomha-choose__list {
+    display: block;
+  }
+  .zoomha-choose__item {
+    margin-bottom: 18px;
+  }
+  .zoomha-choose__link {
+    padding: 56px 21px 16px;
+  }
+  .zoomha-back {
+    text-align: center;
+    display: block;
   }
   .zoomha-order__item {
     justify-content: flex-start;
@@ -1649,12 +1701,6 @@ ul {
   .zoomha-order__buy {
     width: 100%;
     box-sizing: border-box;
-  }
-  .zoomha-choose__list {
-    display: block;
-  }
-  .zoomha-choose__item {
-    margin-bottom: 20px;
   }
   .zoomha-bee {
     width: 100%;
