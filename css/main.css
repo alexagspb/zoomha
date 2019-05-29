@@ -30,6 +30,12 @@ ul {
   line-height: 16px;
   text-transform: uppercase;
 }
+.zoomha-btn:hover {
+  background: linear-gradient(270deg, rgba(239,190,5,0.7) 0%, rgba(255,203,8,0.7) 100%), #ff7008;
+}
+.zoomha-btn:active {
+  background: #ff7008;
+}
 .zoomha-wrapper {
   width: 1280px;
   min-height: 100%;
@@ -1019,6 +1025,11 @@ ul {
   background-position: center center;
   background-repeat: no-repeat;
 }
+.zoomha-products__basket:hover {
+  background: linear-gradient(270deg, rgba(239,190,5,0.7) 0%, rgba(255,203,8,0.7) 100%), #ff7008 url("../img/basket.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+}
 .zoomha-products__basket_added {
   background-color: #e5e5e5;
 }
@@ -1333,6 +1344,15 @@ ul {
   padding: 7px 10px;
   position: relative;
   left: 20px;
+  cursor: pointer;
+}
+.zoomha-support:hover {
+  background: #f89610;
+  box-shadow: 1px 2px 6px rgba(0,0,0,0.1);
+}
+.zoomha-support:active {
+  background: #ff7008;
+  box-shadow: 1px 2px 6px rgba(0,0,0,0.1);
 }
 .zoomha-payments {
   display: flex;
@@ -1892,6 +1912,9 @@ ul {
     padding-left: 45px;
     background: url("../img/en_mobile.png") left 18px no-repeat;
   }
+  .blocker {
+    z-index: 3;
+  }
   .blocker:before {
     display: none;
   }
@@ -1902,5 +1925,9 @@ ul {
     width: 100%;
     height: 100%;
     border-radius: 0;
+    padding-top: 50%;
+  }
+  .modal__input {
+    border: 1px solid #e5e5e5;
   }
 }
