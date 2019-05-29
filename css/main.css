@@ -201,6 +201,27 @@ ul {
   cursor: pointer;
   background: url("../img/basket_mobile.png") center center no-repeat;
 }
+.zoomha-mobile__basket-count {
+  display: none;
+  position: absolute;
+  left: 22px;
+  top: 10px;
+  vertical-align: text-bottom;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 17px;
+  height: 17px;
+  width: 17px;
+  text-align: center;
+  border-radius: 10px;
+  background: #ffcb08;
+  color: #282828;
+}
+.zoomha-mobile__basket-count_active {
+  display: inline-block;
+}
 .zoomha-mobile__open {
   position: absolute;
   top: 18px;
@@ -250,8 +271,8 @@ ul {
 }
 .zoomha-mobilemenu__close {
   position: absolute;
-  top: 15px;
-  right: 15px;
+  top: 20px;
+  right: 30px;
   width: 20px;
   height: 20px;
   cursor: pointer;
@@ -284,7 +305,7 @@ ul {
   margin-bottom: 20px;
 }
 .zoomha-mobilemenu__item_filter {
-  padding: 15px 0;
+  padding: 25px 0;
   border-bottom: 1px solid #919191;
 }
 .zoomha-mobilemenu__item_filter:last-child {
@@ -307,12 +328,12 @@ ul {
   border-bottom: 1px solid #919191;
 }
 .zoomha-mobilemenu-category__link {
-  display: block;
+  display: inline-block;
   color: #282828;
   text-decoration: none;
   font-size: 20px;
   line-height: 24px;
-  padding: 20px 0;
+  padding: 25px 0;
 }
 .zoomha-mobilemenu-category__sublist {
   margin-left: 50px;
@@ -578,10 +599,10 @@ ul {
 .zoomha-title {
   font-family: Raleway;
   font-style: normal;
-  font-weight: 700;
-  font-size: 30px;
-  line-height: 35px;
-  margin-bottom: 19px;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 31px;
+  margin-bottom: 15px;
 }
 .zoomha-title_bonuses {
   margin-bottom: 26px;
@@ -599,12 +620,6 @@ ul {
 .zoomha-title_profile {
   text-align: center;
   margin: 33px 0 44px;
-}
-.zoomha-title {
-  font-weight: 500;
-  font-size: 26px;
-  line-height: 31px;
-  margin-bottom: 15px;
 }
 .zoomha-subtitle {
   font-family: Raleway;
@@ -657,6 +672,9 @@ ul {
   height: 25px;
   width: 25px;
   background: url("../img/uncheck.png") no-repeat;
+}
+.zoomha-filters__button {
+  width: 173px;
 }
 .zoomha-page,
 .zoomha-catalog,
@@ -1006,7 +1024,7 @@ ul {
 }
 .zoomha-products__buy {
   flex-basis: 100%;
-  padding: 9px;
+  padding: 7px;
 }
 .zoomha-links {
   padding: 10px;
@@ -1744,6 +1762,9 @@ ul {
     line-height: 38px;
     cursor: pointer;
   }
+  .zoomha-mobile__button_filter {
+    background: #e5e5e5 url("../img/filter.png") 14px center no-repeat;
+  }
   .zoomha-mobilemenu__profile {
     position: relative;
     top: 50%;
@@ -1761,6 +1782,34 @@ ul {
   .zoomha-mobilemenu__profile-link_active {
     text-decoration: none;
     color: #ff7008;
+  }
+  .zoomha-mobilemenu_main .zoomha-mobilemenu__title {
+    font-size: 22px;
+    font-weight: 700;
+  }
+  .zoomha-mobilemenu_main .zoomha-mobilemenu__list {
+    padding-bottom: 30px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #f4fbff;
+  }
+  .zoomha-mobilemenu_main .zoomha-mobilemenu__item {
+    height: 40px;
+  }
+  .zoomha-mobilemenu_main .zoomha-mobilemenu__link {
+    font-size: 20px;
+    font-weight: 300;
+    text-decoration: none;
+    color: #f4fbff;
+  }
+  .zoomha-mobilemenu_main .zoomha-mobilemenu__link_auth {
+    text-decoration: underline;
+  }
+  .zoomha-mobilemenu_main .zoomha-mobilemenu__link_lang {
+    text-decoration: underline;
+  }
+  .zoomha-mobilemenu_main .zoomha-mobilemenu__lang {
+    padding-left: 45px;
+    background: url("../img/en_mobile.png") left 18px no-repeat;
   }
   .blocker:before {
     display: none;
