@@ -290,7 +290,7 @@ ul {
     &_profile {
       width: 50%;
       background: #fff;
-      top: 51px;
+      top: 59px;
       z-index: 1;
     }
 
@@ -2076,7 +2076,6 @@ ul {
         box-sizing: border-box;
       }
     }
-
     &-bee {
       width: 100%;
       background-size: contain;
@@ -2087,6 +2086,16 @@ ul {
       background-size: contain;
     }
 
+    &-profile {
+      padding: 33px 17px
+    }
+    &-bonuses {
+      &__spend {
+        font-weight: 500;
+        text-align: center
+        margin-bottom: 11px;
+      }
+    }
     &-footer {
       display: block;
       width: 100%;
@@ -2114,6 +2123,29 @@ ul {
         height: 38px;
         line-height: 38px;
         cursor pointer
+      }
+    }
+    &-mobilemenu {
+      &__profile {
+        position: relative;
+        top: 50%;
+        transform: translateY(-100%);
+        margin-top: 50px;
+
+        &-item {
+          height: 40px;
+        }
+
+        &-link {
+          font-size: 14px;
+          line-height: 17px;
+          color $black
+
+          &_active {
+            text-decoration: none
+            color $orange
+          }
+        }
       }
     }
   }
