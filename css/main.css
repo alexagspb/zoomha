@@ -45,11 +45,13 @@ ul {
   border: 1px solid #e5e5e5;
 }
 .zoomha-logo {
-  position: relative;
+  position: absolute;
+  left: 50%;
+  margin-left: -73px;
 }
 .zoomha-logo__link {
   width: 145px;
-  height: 55px;
+  height: 59px;
   display: block;
   background: url("../img/logo.png") 0 center no-repeat;
 }
@@ -262,7 +264,6 @@ ul {
 .zoomha-mobilemenu_profile {
   width: 50%;
   background: #fff;
-  top: 59px;
   z-index: 1;
 }
 .zoomha-mobilemenu_main {
@@ -404,6 +405,9 @@ ul {
 }
 .zoomha-breadcrumbs__item:last-child:after {
   display: none;
+}
+.zoomha-breadcrumbs__item:last-child .zoomha-breadcrumbs__link {
+  text-decoration: none;
 }
 .zoomha-breadcrumbs__link {
   color: #282828;
@@ -582,14 +586,24 @@ ul {
   text-decoration: none;
   margin-bottom: 6px;
 }
+.zoomha-leftcol__link_profile,
+.zoomha-leftcol__sublink_profile {
+  border-bottom: 1px solid transparent;
+  text-decoration: underline;
+}
 .zoomha-leftcol__link:hover,
 .zoomha-leftcol__sublink:hover {
   border-bottom: 1px solid transparent;
+  text-decoration: none;
 }
 .zoomha-leftcol__link_active,
 .zoomha-leftcol__sublink_active {
   border-bottom: 1px solid transparent;
+  text-decoration: none;
   color: #ff7008;
+}
+.zoomha-leftcol__sublink {
+  border-bottom: 1px solid transparent;
 }
 .zoomha-leftcol__sublist {
   margin: 5px 0 0 12px;
@@ -952,7 +966,6 @@ ul {
 }
 .zoomha-products__list {
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
   margin-bottom: 20px;
 }
@@ -961,7 +974,11 @@ ul {
   max-width: 31.8%;
   box-sizing: border-box;
   margin-bottom: 2.3%;
+  margin-right: 2.3%;
   position: relative;
+}
+.zoomha-products__item:nth-of-type(3n) {
+  margin-right: 0;
 }
 .zoomha-products__item_popular {
   max-width: 24%;
@@ -1021,19 +1038,25 @@ ul {
   height: 30px;
   padding: 2px 15px;
   margin-right: 3px;
-  background-image: url("../img/basket.png");
-  background-position: center center;
-  background-repeat: no-repeat;
+  position: relative;
 }
-.zoomha-products__basket:hover {
-  background: linear-gradient(270deg, rgba(239,190,5,0.7) 0%, rgba(255,203,8,0.7) 100%), #ff7008 url("../img/basket.png");
-  background-position: center center;
-  background-repeat: no-repeat;
+.zoomha-products__basket:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("../img/basket.png") center center no-repeat;
 }
 .zoomha-products__basket_added {
-  background-color: #e5e5e5;
+  background: #e5e5e5;
+}
+.zoomha-products__basket_added:hover {
+  background: #e5e5e5;
 }
 .zoomha-products__buy {
+  font-family: 'Museo Sans Cyrl';
   flex-basis: 100%;
   padding: 7px;
 }
@@ -1118,6 +1141,7 @@ ul {
   justify-content: space-between;
   align-items: center;
   padding: 9px 28px;
+  margin-bottom: -1px;
 }
 .zoomha-goods__img {
   min-width: 114px;
@@ -1132,6 +1156,9 @@ ul {
   text-align: left;
   font-size: 14px;
   width: 200px;
+}
+.zoomha-goods__description {
+  margin-bottom: 5px;
 }
 .zoomha-goods__num {
   display: flex;
@@ -1228,7 +1255,7 @@ ul {
   text-transform: uppercase;
 }
 .zoomha-back:before {
-  content: '←';
+  content: '← ';
 }
 .zoomha-back:hover {
   text-decoration: none;
@@ -1270,7 +1297,7 @@ ul {
 .zoomha-redirect {
   font-size: 24px;
   width: 180px;
-  padding: 20px 70px;
+  padding: 20px 0 20px 70px;
   margin: 57px auto;
   background: url("../img/giphy.png") -80px -42px no-repeat;
 }
@@ -1283,8 +1310,8 @@ ul {
 .zoomha-error {
   width: 370px;
   height: 300px;
-  margin: 132px auto;
-  padding: 165px 0 0 0;
+  margin: 86px auto 0;
+  padding: 212px 0 0 0;
   text-align: center;
   background: url("../img/404.png") top center no-repeat;
 }
@@ -1493,6 +1520,13 @@ ul {
     width: 100%;
     top: 0;
   }
+  .zoomha-logo {
+    left: 0;
+    margin-left: 0;
+    z-index: 2;
+    background: #282828;
+    box-shadow: 100px 0 0 #282828, -30px 0 0 #282828;
+  }
   .zoomha-logo__link {
     margin-left: 7px;
   }
@@ -1653,7 +1687,7 @@ ul {
     margin-bottom: 20px;
   }
   .zoomha-products__buy {
-    padding: 9px 0px 5px;
+    padding: 10px 0px 5px;
   }
   .zoomha-products__bonus {
     padding: 8px 22px;
@@ -1828,6 +1862,7 @@ ul {
   .zoomha-error {
     width: 100%;
     background-size: contain;
+    margin-top: 100px;
   }
   .zoomha-profile {
     padding: 33px 17px;
@@ -1929,5 +1964,10 @@ ul {
   }
   .modal__input {
     border: 1px solid #e5e5e5;
+  }
+}
+@media screen and (max-width: 380px) {
+  .zoomha-logo {
+    box-shadow: 30px 0 0 #282828, -30px 0 0 #282828;
   }
 }

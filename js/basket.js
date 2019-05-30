@@ -57,9 +57,10 @@ $( document ).ready(function() {
 
     $( document ).on('click', '.zoomha-products__basket', function () {
         var self = $(this)
-        $( document ).trigger('showLoader');
 
         if (!self.hasClass('zoomha-products__basket_added')) {
+            $( document ).trigger('showLoader');
+
             $.post( "example.php", function(e) {
                 console.log('basket add success')
             })
