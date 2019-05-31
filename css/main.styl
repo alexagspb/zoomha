@@ -4,6 +4,7 @@ $white = #f4fbff
 $yellow = #ffcb08
 $orange = #ff7008
 $red = #E11919
+$green = #87C700
 $light-grey = #F3F6F7
 $grey = #E5E5E5
 $dark-grey = #919191
@@ -1734,13 +1735,8 @@ ul {
   border-radius: 0;
   padding: 41px 45px;
 
-  &_error {
-    .modal__error {
-      display: block
-    }
-    .modal__input {
-
-    }
+  &_reg {
+    padding-bottom: 12px;
   }
 
   &__title {
@@ -1756,6 +1752,24 @@ ul {
   &__item {
     margin-bottom: 15px;
     position: relative
+
+    &_error {
+      .modal__error {
+        display: block
+      }
+      .modal__input {
+        border 1px solid $red
+      }
+    }
+
+    &_success {
+      .modal__error {
+        display: none
+      }
+      .modal__input {
+        border 1px solid $green
+      }
+    }
   }
 
   &__input {
@@ -1768,9 +1782,10 @@ ul {
 
   &__error {
     display: none
-    position: absolute
-    width: 100%
-    text-align: center
+    position: absolute;
+    bottom: -15px;
+    text-align: center;
+    width: 100%;
     font-family: Raleway;
     font-style: normal;
     font-weight: 500;

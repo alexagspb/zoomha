@@ -1442,8 +1442,8 @@ ul {
   border-radius: 0;
   padding: 41px 45px;
 }
-.modal_error .modal__error {
-  display: block;
+.modal_reg {
+  padding-bottom: 12px;
 }
 .modal__title {
   font-family: Raleway;
@@ -1458,6 +1458,18 @@ ul {
   margin-bottom: 15px;
   position: relative;
 }
+.modal__item_error .modal__error {
+  display: block;
+}
+.modal__item_error .modal__input {
+  border: 1px solid #e11919;
+}
+.modal__item_success .modal__error {
+  display: none;
+}
+.modal__item_success .modal__input {
+  border: 1px solid #87c700;
+}
 .modal__input {
   width: 100%;
   text-align: center;
@@ -1468,8 +1480,9 @@ ul {
 .modal__error {
   display: none;
   position: absolute;
-  width: 100%;
+  bottom: -15px;
   text-align: center;
+  width: 100%;
   font-family: Raleway;
   font-style: normal;
   font-weight: 500;

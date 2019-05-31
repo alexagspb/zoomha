@@ -19,22 +19,33 @@ $( document ).ready(function() {
     })
 
     $( document ).on('click', '.auth__button', function () {
-
-        $( document ).trigger('showLoader');
-        $.post( "example.php", function(e) {
-            console.log('auth success')
+        var inputs =  $(this).closest('.modal').find('.modal__input')
+        inputs.each(function () {
+            var item = $(this).closest('.modal__item')
+            if ($(this).val()) {
+                item.removeClass('modal__item_error').addClass('modal__item_success')
+            } else {
+                item.removeClass('modal__item_success').addClass('modal__item_error')
+            }
         })
-            .done(function() {
-                console.log('auth second success')
+
+        if (!$(this).closest('.modal').find('.modal__item_error').length) {
+            $( document ).trigger('showLoader');
+            $.post( "example.php", function(e) {
+                console.log('auth success')
             })
-            .fail(function() {
-                console.log('auth error')
-            })
-            .always(function() {
-                console.log('auth always')
-                $( document ).trigger('hideLoader');
-                $.modal.close();
-                login()
-            });
+                .done(function() {
+                    console.log('auth second success')
+                })
+                .fail(function() {
+                    console.log('auth error')
+                })
+                .always(function() {
+                    console.log('auth always')
+                    $( document ).trigger('hideLoader');
+                    $.modal.close();
+                    login()
+                });
+        }
     })
 });
