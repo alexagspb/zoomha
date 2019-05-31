@@ -3,6 +3,7 @@ $light-black = #212121
 $white = #f4fbff
 $yellow = #ffcb08
 $orange = #ff7008
+$red = #E11919
 $light-grey = #F3F6F7
 $grey = #E5E5E5
 $dark-grey = #919191
@@ -1721,36 +1722,81 @@ ul {
     }
   }
 }
+
+.blocker {
+  z-index: 5
+  background-color: rgba(36, 36, 36, 0.32);
+}
+
 .modal {
-  width: 345px
+  width: 376px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.5);
+  border-radius: 0;
+  padding: 41px 45px;
+
+  &_error {
+    .modal__error {
+      display: block
+    }
+    .modal__input {
+
+    }
+  }
 
   &__title {
     font-family: Raleway;
-    bottom: 20px
+    bottom: 20px;
     font-weight: 500;
     font-size: 26px;
     line-height: 31px;
     text-align: center;
+    margin-bottom: 18px;
+  }
+
+  &__item {
+    margin-bottom: 15px;
+    position: relative
   }
 
   &__input {
     width: 100%;
     text-align: center;
-    padding: 5px;
-    margin-bottom: 10px;
+    padding: 10px 5px;
     box-sizing: border-box;
+    border: 1px solid $grey;
+  }
+
+  &__error {
+    display: none
+    position: absolute
+    width: 100%
+    text-align: center
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    color: $red;
   }
 
   &__button {
     width: 100%;
     box-sizing: border-box;
-
+    margin: 19px 0px 2px;
+    padding: 14px 37px 12px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    text-transform: uppercase;
   }
 
   &__links {
     display: flex
     justify-content center
-    margin-bottom: 20px
+    margin-bottom: 15px
   }
 
   &__link {
@@ -1807,9 +1853,9 @@ ul {
 
   a.close-modal {
     background: url(../img/menu/close_black.png) center center no-repeat;
-    background-size: 15px;
-    top: 0px;
-    right: 0px;
+    background-size: 13px;
+    top: 2px;
+    right: 4px;
   }
 }
 
@@ -2374,7 +2420,6 @@ ul {
   }
 
   .blocker {
-    z-index: 3
 
     &:before {
       display: none
