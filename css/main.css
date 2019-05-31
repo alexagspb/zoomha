@@ -401,6 +401,7 @@ ul {
   position: relative;
 }
 .zoomha-breadcrumbs__item:after {
+  color: #919191;
   content: '›';
 }
 .zoomha-breadcrumbs__item:last-child:after {
@@ -410,7 +411,7 @@ ul {
   text-decoration: none;
 }
 .zoomha-breadcrumbs__link {
-  color: #282828;
+  color: #919191;
   font-family: Raleway;
   font-style: normal;
   font-weight: 500;
@@ -579,8 +580,8 @@ ul {
 .zoomha-leftcol__link,
 .zoomha-leftcol__sublink {
   display: inline-block;
-  color: #282828;
-  border-bottom: 1px dashed #282828;
+  color: #212121;
+  border-bottom: 1px dashed #212121;
   font-size: 14px;
   line-height: 17px;
   text-decoration: none;
@@ -910,7 +911,7 @@ ul {
   border-radius: 0px 20px;
   font-family: Raleway;
   font-style: normal;
-  font-weight: 500;
+  font-weight: bold;
   font-size: 16px;
   line-height: 19px;
 }
@@ -1023,11 +1024,13 @@ ul {
 .zoomha-products__info {
   font-size: 12px;
   line-height: 14px;
+  color: #919191;
 }
 .zoomha-products__id {
   font-size: 12px;
   line-height: 14px;
   margin-bottom: 13px;
+  color: #919191;
 }
 .zoomha-products__buttons {
   display: flex;
