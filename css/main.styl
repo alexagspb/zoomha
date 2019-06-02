@@ -68,9 +68,12 @@ ul {
   }
 
   &-logo {
-    position: absolute;
-    left: 50%;
-    margin-left: -73px;
+
+    &_header {
+      position: absolute;
+      left: 50%;
+      margin-left: -73px;
+    }
 
     &__link {
       width: 145px;
@@ -1176,6 +1179,24 @@ ul {
       margin-bottom: 2.3%;
       margin-right: 2.3%;
       position: relative;
+      height 337px
+
+      &_zoomed {
+        transform: scale(1.2);
+        z-index: 1;
+        background: #fff;
+        box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
+        height auto
+        margin-bottom: -90px;
+
+        .zoomha-products__img {
+          height 302px
+
+          img {
+            transform: translateY(0);
+          }
+        }
+      }
 
       &:nth-of-type(3n) {
         margin-right: 0
@@ -1207,7 +1228,13 @@ ul {
     }
 
     &__img {
-      width: 100%
+      overflow: hidden
+      height: 193px;
+
+      img {
+        width: 100%
+        transform: translateY(-25%);
+      }
     }
 
     &__txt {

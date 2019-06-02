@@ -1,8 +1,9 @@
 $( document ).ready(function() {
     var $catalog = $('.zoomha-products')
     var $paginator = $('.zoomha-paginator')
+    var zoomId
 
-    function updateCatalog() {
+        function updateCatalog() {
         $catalog.html('Обновленная страница каталога')
     }
 
@@ -49,5 +50,19 @@ $( document ).ready(function() {
                 updateCatalog()
                 updatePaginator()
             });
+    })
+
+    $( document ).on('mouseenter', '.zoomha-products__item', function (e) {
+        var self = $(this)
+        // $('.zoomha-products__item').removeClass('zoomha-products__item_zoomed')
+        clearTimeout(zoomId)
+        zoomId = setTimeout(function () {
+            self.addClass('zoomha-products__item_zoomed')
+        }, 600)
+    })
+
+    $( document ).on('mouseleave', '.zoomha-products__item', function (e) {
+        clearTimeout(zoomId)
+        $(this).removeClass('zoomha-products__item_zoomed')
     })
 });

@@ -44,7 +44,7 @@ ul {
   padding: 89px 0 148px;
   border: 1px solid #e5e5e5;
 }
-.zoomha-logo {
+.zoomha-logo_header {
   position: absolute;
   left: 50%;
   margin-left: -73px;
@@ -977,6 +977,21 @@ ul {
   margin-bottom: 2.3%;
   margin-right: 2.3%;
   position: relative;
+  height: 337px;
+}
+.zoomha-products__item_zoomed {
+  transform: scale(1.2);
+  z-index: 1;
+  background: #fff;
+  box-shadow: 0px 0px 6px rgba(0,0,0,0.25);
+  height: auto;
+  margin-bottom: -90px;
+}
+.zoomha-products__item_zoomed .zoomha-products__img {
+  height: 302px;
+}
+.zoomha-products__item_zoomed .zoomha-products__img img {
+  transform: translateY(0);
 }
 .zoomha-products__item:nth-of-type(3n) {
   margin-right: 0;
@@ -1003,7 +1018,12 @@ ul {
   text-transform: uppercase;
 }
 .zoomha-products__img {
+  overflow: hidden;
+  height: 193px;
+}
+.zoomha-products__img img {
   width: 100%;
+  transform: translateY(-25%);
 }
 .zoomha-products__txt {
   padding: 7px 11px 15px;
