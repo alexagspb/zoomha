@@ -226,11 +226,17 @@
   </footer>
 
 
-  <div id="login" class="modal">
+  <div id="login" class="modal modal_login">
     <div class="modal__title">Вход в личный кабинет</div>
     <form action="">
-      <input class="modal__input" type="text">
-      <input class="modal__input" type="text">
+      <div class="modal__item">
+        <input class="modal__input" type="text" placeholder="Логин">
+        <div class="modal__error">Поле не заполнено</div>
+      </div>
+      <div class="modal__item">
+        <input class="modal__input" type="text" placeholder="Пароль">
+        <div class="modal__error">Поле не заполнено</div>
+      </div>
       <div class="zoomha-btn modal__button auth__button">Войти</div>
       <div class="modal__links">
         <a class="modal__link" href="">Забыл пароль</a>
@@ -247,11 +253,17 @@
     </div>
   </div>
 
-  <div id="reg" class="modal">
+  <div id="reg" class="modal modal_reg">
     <div class="modal__title">Регистрация</div>
     <form action="">
-      <input class="modal__input" type="text">
-      <input class="modal__input" type="text">
+      <div class="modal__item">
+        <input class="modal__input" type="text" placeholder="Логин">
+        <div class="modal__error">Поле не заполнено</div>
+      </div>
+      <div class="modal__item">
+        <input class="modal__input" type="text" placeholder="Пароль">
+        <div class="modal__error">Поле не заполнено</div>
+      </div>
       <div class="zoomha-btn modal__button auth__button">Зарегистрироваться</div>
       <div class="modal__links">
         <a class="modal__link" href="#login" rel="modal:open">Войти</a>

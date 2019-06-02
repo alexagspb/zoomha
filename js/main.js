@@ -1,26 +1,24 @@
 $( document ).ready(function() {
-    // var viewportMeta = $('#viewport-meta')
-    //
-    // var viewports = {
-    //     default: viewportMeta.attr('content'),
-    //     landscape: 'width=1024'
-    // };
-    //
-    //  function viewportSet() {
-    //      console.log(screen.width)
-    //     if ( screen.width > 480 ) {
-    //         console.log('if')
-    //         viewportMeta.attr( 'content', viewports.landscape );
-    //     } else {
-    //         viewportMeta.attr( 'content', viewports.default );
-    //     }
-    // }
-    //
-    // viewportSet();
-    //
-    // window.onresize = function() {
-    //     viewportSet();
-    // }
+    var viewportMeta = $('#viewport-meta')
+
+    var viewports = {
+        default: viewportMeta.attr('content'),
+        landscape: 'width=1280'
+    };
+
+     function viewportSet() {
+        if ( screen.width > 480 ) {
+            viewportMeta.attr( 'content', viewports.landscape );
+        } else {
+            viewportMeta.attr( 'content', viewports.default );
+        }
+    }
+
+    viewportSet();
+
+    window.onresize = function() {
+        viewportSet();
+    }
 
     var $mobilemenumain = $('.zoomha-mobilemenu_main')
     var $mobilemenufilters = $('.zoomha-mobilemenu_filters')

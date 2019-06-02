@@ -135,7 +135,9 @@
         <ul class="zoomha-products__list">
           <li class="zoomha-products__item zoomha-products__item_popular">
             <div class="zoomha-products__bonus">+1000 бонусов</div>
-            <img src="img/product/product3.png" alt="" class="zoomha-products__img">
+            <div class="zoomha-products__img">
+              <img src="img/product/product5_zoom.png" alt="">
+            </div>
             <div class="zoomha-products__txt">
               <div class="zoomha-products__title">Boxed Water Is Better</div>
               <div class="zoomha-products__subtitle">Concept art. Minimal surrealism.</div>
@@ -149,7 +151,9 @@
           </li>
           <li class="zoomha-products__item zoomha-products__item_popular">
             <div class="zoomha-products__bonus">+1000 бонусов</div>
-            <img src="img/product/product4.png" alt="" class="zoomha-products__img">
+            <div class="zoomha-products__img">
+              <img src="img/product/product5_zoom.png" alt="">
+            </div>
             <div class="zoomha-products__txt">
               <div class="zoomha-products__title">Green plant near the white wall</div>
               <div class="zoomha-products__subtitle">Concept art. Minimal surrealism.</div>
@@ -163,7 +167,9 @@
           </li>
           <li class="zoomha-products__item zoomha-products__item_popular">
             <div class="zoomha-products__bonus">+1000 бонусов</div>
-            <img src="img/product/product5.png" alt="" class="zoomha-products__img">
+            <div class="zoomha-products__img">
+              <img src="img/product/product5_zoom.png" alt="">
+            </div>
             <div class="zoomha-products__txt">
               <div class="zoomha-products__title">White house, Australia</div>
               <div class="zoomha-products__subtitle">Concept art. Minimal surrealism.</div>
@@ -177,7 +183,9 @@
           </li>
           <li class="zoomha-products__item zoomha-products__item_popular">
             <div class="zoomha-products__bonus">+1000 бонусов</div>
-            <img src="img/product/product6.png" alt="" class="zoomha-products__img">
+            <div class="zoomha-products__img">
+              <img src="img/product/product5_zoom.png" alt="">
+            </div>
             <div class="zoomha-products__txt">
               <div class="zoomha-products__title">Boxed Water Is Better</div>
               <div class="zoomha-products__subtitle">Concept art. Minimal surrealism.</div>
@@ -221,11 +229,17 @@
     </footer>
 
 
-  <div id="login" class="modal">
+  <div id="login" class="modal modal_login">
     <div class="modal__title">Вход в личный кабинет</div>
     <form action="">
-      <input class="modal__input" type="text">
-      <input class="modal__input" type="text">
+      <div class="modal__item">
+        <input class="modal__input" type="text" placeholder="Логин">
+        <div class="modal__error">Поле не заполнено</div>
+      </div>
+      <div class="modal__item">
+        <input class="modal__input" type="text" placeholder="Пароль">
+        <div class="modal__error">Поле не заполнено</div>
+      </div>
       <div class="zoomha-btn modal__button auth__button">Войти</div>
       <div class="modal__links">
         <a class="modal__link" href="">Забыл пароль</a>
@@ -242,11 +256,17 @@
     </div>
   </div>
 
-  <div id="reg" class="modal">
+  <div id="reg" class="modal modal_reg">
     <div class="modal__title">Регистрация</div>
     <form action="">
-      <input class="modal__input" type="text">
-      <input class="modal__input" type="text">
+      <div class="modal__item">
+        <input class="modal__input" type="text" placeholder="Логин">
+        <div class="modal__error">Поле не заполнено</div>
+      </div>
+      <div class="modal__item">
+        <input class="modal__input" type="text" placeholder="Пароль">
+        <div class="modal__error">Поле не заполнено</div>
+      </div>
       <div class="zoomha-btn modal__button auth__button">Зарегистрироваться</div>
       <div class="modal__links">
         <a class="modal__link" href="#login" rel="modal:open">Войти</a>

@@ -520,7 +520,7 @@ ul {
 .zoomha-about:after {
   content: '';
   position: absolute;
-  top: -20px;
+  top: -19px;
   left: 0;
   height: 20px;
   width: 100%;
@@ -555,7 +555,7 @@ ul {
 .zoomha-popular:after {
   content: '';
   position: absolute;
-  top: -20px;
+  top: -19px;
   left: 0;
   height: 20px;
   width: 100%;
@@ -1781,6 +1781,7 @@ ul {
   .zoomha-products__item {
     max-width: 100%;
     margin-bottom: 20px;
+    margin-right: 0;
   }
   .zoomha-products__buy {
     padding: 10px 0px 5px;
@@ -1884,6 +1885,7 @@ ul {
     top: 15px;
     left: 98px;
     max-width: 220px;
+    line-height: 18px;
   }
   .zoomha-goods__img {
     min-width: auto;
@@ -1903,8 +1905,11 @@ ul {
   }
   .zoomha-goods__txt {
     position: absolute;
-    top: 50px;
+    top: 55px;
     left: 98px;
+  }
+  .zoomha-goods__description {
+    margin-bottom: 0;
   }
   .zoomha-goods__total {
     margin: 10px 0 30px 80px;
@@ -2061,6 +2066,6 @@ ul {
 }
 @media screen and (max-width: 380px) {
   .zoomha-logo {
-    box-shadow: 30px 0 0 #282828, -30px 0 0 #282828;
+    box-shadow: 40px 0 0 #282828, -30px 0 0 #282828;
   }
 }
