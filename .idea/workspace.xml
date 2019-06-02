@@ -1,20 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e8aea15f-b590-4c06-b7d2-f4f7c2641d64" name="Default" comment="modal validation fix">
-      <change afterPath="$PROJECT_DIR$/img/product/product5_zoom.png" afterDir="false" />
+    <list default="true" id="e8aea15f-b590-4c06-b7d2-f4f7c2641d64" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/fonts/Raleway/OFL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Raleway/Raleway-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Raleway/Raleway-BlackItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Raleway/Raleway-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Raleway/Raleway-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Raleway/Raleway-ExtraBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Raleway/Raleway-ExtraBoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Raleway/Raleway-ExtraLight.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Raleway/Raleway-ExtraLightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Raleway/Raleway-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Raleway/Raleway-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Raleway/Raleway-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Raleway/Raleway-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Raleway/Raleway-MediumItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Raleway/Raleway-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Raleway/Raleway-SemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Raleway/Raleway-SemiBoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Raleway/Raleway-Thin.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Raleway/Raleway-ThinItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Raleway/raleway.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/museosanscyrl/MuseoSansCyrl-100.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/museosanscyrl/MuseoSansCyrl-100Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/museosanscyrl/MuseoSansCyrl-300.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/museosanscyrl/MuseoSansCyrl-300Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/museosanscyrl/MuseoSansCyrl-500.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/museosanscyrl/MuseoSansCyrl-500Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/museosanscyrl/MuseoSansCyrl-700.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/museosanscyrl/MuseoSansCyrl-700Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/museosanscyrl/MuseoSansCyrl-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/museosanscyrl/MuseoSansCyrl-900Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/museosanscyrl/Museo_Cyrillic.otf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basket.html" beforeDir="false" afterPath="$PROJECT_DIR$/basket.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.styl" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/catalog.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/catalog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page.html" beforeDir="false" afterPath="$PROJECT_DIR$/page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment.html" beforeDir="false" afterPath="$PROJECT_DIR$/payment.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redirect.html" beforeDir="false" afterPath="$PROJECT_DIR$/redirect.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/museosanscyrl/Museosanscyrl500.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/museosanscyrl/Museosanscyrl500.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/museosanscyrl/Museosanscyrl500.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/museosanscyrl/museosanscyrl.css" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/museosanscyrl/museosanscyrl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/raleway/raleway.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/raleway/ralewaybold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/raleway/ralewaybold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/raleway/ralewaybold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/raleway/ralewaymedium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/raleway/ralewaymedium.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/raleway/ralewaymedium.woff2" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -49,29 +79,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/page.html">
+      <file leaf-file-name="montserrat.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fonts/montserrat/montserrat.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="64" column="12" selection-start-line="64" selection-start-column="12" selection-end-line="64" selection-end-column="12" />
+            <state relative-caret-position="119">
+              <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="payment.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/payment.html">
+      <file leaf-file-name="museosanscyrl.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fonts/museosanscyrl/museosanscyrl.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="63" column="12" selection-start-line="63" selection-start-column="12" selection-end-line="63" selection-end-column="12" />
+            <state relative-caret-position="204">
+              <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="redirect.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="raleway.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/fonts/Raleway/raleway.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="redirect.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/redirect.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="63" column="12" selection-start-line="63" selection-start-column="12" selection-end-line="63" selection-end-column="12" />
+            <state relative-caret-position="238">
+              <caret line="14" column="64" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="64" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#ul#1;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -80,11 +119,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="404.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/404.html">
+      <file leaf-file-name="main.styl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/main.styl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="117" column="14" selection-start-line="117" selection-start-column="14" selection-end-line="117" selection-end-column="14" />
+            <state relative-caret-position="374">
+              <caret line="22" column="2" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -113,32 +152,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.styl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/main.styl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="1179" column="25" lean-forward="true" selection-start-line="1179" selection-start-column="25" selection-end-line="1179" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="catalog.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/catalog.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="43" column="30" lean-forward="true" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>НАЗАД</find>
-      <find>__buy</find>
-      <find>-goods</find>
-      <find>-erro</find>
       <find>nth</find>
       <find>leftcol</find>
       <find>zoomha-mobilemenu__item</find>
@@ -165,6 +182,10 @@
       <find>zoomha-logo</find>
       <find>zoomha-logo&quot;</find>
       <find>product5.png</find>
+      <find>Museo Sans Cyrl</find>
+      <find>Montserrat</find>
+      <find>MuseoSansCyrl</find>
+      <find>Ultra</find>
     </findStrings>
     <replaceStrings>
       <replace>zoomha-product__subtitle</replace>
@@ -184,6 +205,9 @@
       <replace>&quot;#&quot;</replace>
       <replace>zoomha-leftcol__link zoomha-leftcol__link_profile</replace>
       <replace>product5_zoom.png</replace>
+      <replace>MuseoSansCyrl</replace>
+      <replace>Raleway</replace>
+      <replace>Extra</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -197,7 +221,6 @@
       <list>
         <option value="$PROJECT_DIR$/_404.html" />
         <option value="$PROJECT_DIR$/fonts/raleway/raleway.css" />
-        <option value="$PROJECT_DIR$/fonts/montserrat/montserrat.css" />
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/js/header.js" />
         <option value="$PROJECT_DIR$/js/page.js" />
@@ -213,6 +236,10 @@
         <option value="$PROJECT_DIR$/payment.html" />
         <option value="$PROJECT_DIR$/profile.html" />
         <option value="$PROJECT_DIR$/redirect.html" />
+        <option value="$PROJECT_DIR$/fonts/montserrat/montserrat.css" />
+        <option value="$PROJECT_DIR$/fonts/MuseoSansCyrl/montserrat.css" />
+        <option value="$PROJECT_DIR$/fonts/museosanscyrl/museosanscyrl.css" />
+        <option value="$PROJECT_DIR$/fonts/Raleway/raleway.css" />
       </list>
     </option>
   </component>
@@ -273,7 +300,7 @@
               <item name="zoomha" type="b2602c69:ProjectViewProjectNode" />
               <item name="zoomha" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="fonts" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="raleway" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Raleway" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="zoomha" type="b2602c69:ProjectViewProjectNode" />
@@ -326,11 +353,11 @@
       <recent name="$PROJECT_DIR$/img/banner" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/fonts/Raleway" />
+      <recent name="$PROJECT_DIR$/fonts/MuseoSansCyrl" />
+      <recent name="$PROJECT_DIR$/fonts" />
       <recent name="$PROJECT_DIR$/img/product" />
       <recent name="$PROJECT_DIR$/img" />
-      <recent name="$PROJECT_DIR$/fonts/montserrat" />
-      <recent name="$PROJECT_DIR$/js" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -373,7 +400,7 @@
       <workItem from="1559238290236" duration="1194000" />
       <workItem from="1559294792971" duration="1785000" />
       <workItem from="1559302972115" duration="4697000" />
-      <workItem from="1559473163828" duration="2074000" />
+      <workItem from="1559473163828" duration="3524000" />
     </task>
     <task id="LOCAL-00001" summary="Add js">
       <created>1558700274044</created>
@@ -620,11 +647,18 @@
       <option name="project" value="LOCAL" />
       <updated>1559308216772</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="catalog zoom fix">
+      <created>1559475701708</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1559475701708</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127011000" />
+    <option name="totallyTimeSpent" value="128461000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="952" extended-state="0" />
@@ -636,10 +670,10 @@
       <window_info anchor="bottom" auto_hide="true" id="Run" internal_type="SLIDING" order="2" type="SLIDING" weight="0.3296593" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.3296593" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2857143" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2857143" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.31093395" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.31093395" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -668,7 +702,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add mobile styles" />
     <MESSAGE value="Add mobile menu" />
     <MESSAGE value="Reg mobile fix" />
     <MESSAGE value="Mobile menu fix" />
@@ -693,23 +726,10 @@
     <MESSAGE value="css bugfix" />
     <MESSAGE value="modal css fix" />
     <MESSAGE value="modal validation fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="modal validation fix" />
+    <MESSAGE value="catalog zoom fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="catalog zoom fix" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/fonts/museosanscyrl/museosanscyrl.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/basket.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1054">
-          <caret line="62" selection-start-line="62" selection-end-line="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/main.styl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18547">
@@ -936,13 +956,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fonts/montserrat/montserrat.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="28" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="884">
@@ -978,20 +991,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fonts/museosanscyrl/museosanscyrl.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fonts/raleway/raleway.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/basket.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="524">
@@ -1003,13 +1002,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="355">
           <caret line="43" column="30" lean-forward="true" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="1179" column="25" lean-forward="true" selection-start-line="1179" selection-start-column="25" selection-end-line="1179" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -1040,20 +1032,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="65" column="12" selection-start-line="65" selection-start-column="12" selection-end-line="65" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="64" column="12" selection-start-line="64" selection-start-column="12" selection-end-line="64" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/payment.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
@@ -1074,14 +1052,68 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/fonts/museosanscyrl/museosanscyrl.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="65" column="12" selection-start-line="65" selection-start-column="12" selection-end-line="65" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fonts/montserrat/montserrat.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="64" column="12" selection-start-line="64" selection-start-column="12" selection-end-line="64" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="2" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fonts/Raleway/OFL.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1137" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/redirect.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="63" column="12" selection-start-line="63" selection-start-column="12" selection-end-line="63" selection-end-column="12" />
+        <state relative-caret-position="238">
+          <caret line="14" column="64" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="64" />
           <folding>
             <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#ul#1;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fonts/museosanscyrl/museosanscyrl.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fonts/Raleway/raleway.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
         </state>
       </provider>
     </entry>
