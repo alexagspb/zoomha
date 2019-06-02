@@ -46,15 +46,15 @@
     font-weight: 700;
     font-style: Italic;
 }
-/*@font-face {*/
-    /*font-family: 'Museo Sans Cyrl';*/
-    /*src: local('MuseoSansCyrl-Extra-Bold'), url('MuseoSansCyrl-900.ttf') format('truetype');*/
-    /*font-weight: 900;*/
-    /*font-style: normal;*/
-/*}*/
-/*@font-face {*/
-    /*font-family: 'Museo Sans Cyrl';*/
-    /*src: local('MuseoSansCyrl-Extra-Bold-Italic'), url('MuseoSansCyrl-900Italic.ttf') format('truetype');*/
-    /*font-weight: 900;*/
-    /*font-style: Italic;*/
-/*}*/
+@font-face {
+    font-family: 'Museo Sans Cyrl';
+    src: local('MuseoSansCyrl-Extra-Bold'), url('MuseoSansCyrl-900.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Museo Sans Cyrl';
+    src: local('MuseoSansCyrl-Extra-Bold-Italic'), url('MuseoSansCyrl-900Italic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: Italic;
+}

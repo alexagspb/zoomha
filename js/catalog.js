@@ -54,11 +54,13 @@ $( document ).ready(function() {
 
     $( document ).on('mouseenter', '.zoomha-products__item', function (e) {
         var self = $(this)
-        // $('.zoomha-products__item').removeClass('zoomha-products__item_zoomed')
         clearTimeout(zoomId)
-        zoomId = setTimeout(function () {
-            self.addClass('zoomha-products__item_zoomed')
-        }, 600)
+
+        if ( screen.width > 480 ) {
+            zoomId = setTimeout(function () {
+                self.addClass('zoomha-products__item_zoomed')
+            }, 600)
+        }
     })
 
     $( document ).on('mouseleave', '.zoomha-products__item', function (e) {
