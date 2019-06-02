@@ -72,7 +72,7 @@ ul {
     &_header {
       position: absolute;
       left: 50%;
-      margin-left: -73px;
+      margin-left: -70px;
     }
 
     &__link {
@@ -531,10 +531,12 @@ ul {
     }
 
     &__title {
+      font-family: Raleway;
       position: absolute;
       top: 78px;
       left: 125px;
       font-size: 50px;
+      font-weight: 700;
       color: $white;
     }
 
@@ -544,6 +546,7 @@ ul {
       left: 201px;
       font-size: 28px;
       line-height: 34px;
+      letter-spacing: 0.3px;
       color: $white;
     }
 
@@ -767,12 +770,18 @@ ul {
 
     &_center {
       text-align: center;
-      margin: 33px 0 8px 0;
+      margin: 34px 0 8px 0;
+      font-weight: 700;
+      font-size: 30px;
+      line-height: 35px;
     }
 
     &_profile {
       text-align: center;
-      margin: 33px 0 44px;
+      margin: 33px 0 45px;
+      font-weight: bold;
+      font-size: 30px;
+      line-height: 31px;
     }
   }
 
@@ -1090,7 +1099,7 @@ ul {
       position: absolute
       bottom: 0
       left: 0
-      padding: 13px 22px
+      padding: 14px 20px 12px;
       color $white
       border-radius: 0px 20px;
       font-family: Raleway;
@@ -1137,7 +1146,7 @@ ul {
       font-weight: 500;
       font-size: 20px;
       line-height: 23px;
-      margin-bottom: 4px
+      margin-bottom: 6px
 
       &-num {
         font-weight 700
@@ -1180,6 +1189,7 @@ ul {
       margin-right: 2.3%;
       position: relative;
       height 337px
+      transition transform .1s
 
       &_zoomed {
         transform: scale(1.2);
@@ -1202,12 +1212,17 @@ ul {
         margin-right: 0
       }
 
-      &_popular {
+      &_popular, &_similar {
         max-width: 24%;
-      }
+        margin-right: 1.8%;
 
-      &_similar {
-        max-width: 24%;
+        &:nth-of-type(3n) {
+          margin-right: 1.8%;
+        }
+
+        &:nth-of-type(4n) {
+          margin-right: 0
+        }
       }
     }
 
@@ -1313,7 +1328,7 @@ ul {
     &__item {
       color $white
       display: block
-      margin: 0 0 3px 54px;
+      margin: 0 0 3px 50px;
       font-family: Raleway;
       font-weight: 500;
       font-size: 14px;
@@ -1369,15 +1384,19 @@ ul {
     &__title {
       font-size: 24px;
       margin-bottom: 3px
+      font-weight: 300;
 
       &-num {
         font-size: 24px;
         line-height: 29px;
+        font-weight: 500;
+        margin-left: 5px;
       }
     }
 
     &__subtitle {
       font-size: 18px;
+      font-weight: 700;
     }
 
     &_empty {
@@ -1419,6 +1438,8 @@ ul {
     &__title {
       text-align: left
       width: 380px
+      font-size: 18px;
+      line-height: 22px;
     }
 
     &__txt {
@@ -1428,7 +1449,7 @@ ul {
     }
 
     &__description {
-      margin-bottom: 5px
+      margin-bottom: 7px
     }
 
     &__num {
@@ -1651,6 +1672,7 @@ ul {
     color $white
     font-size: 14px;
     line-height: 17px;
+    margin-top: -5px;
   }
 
   &-email {
