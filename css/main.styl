@@ -640,7 +640,7 @@ ul {
     &:after {
       content ''
       position: absolute
-      top: -19px
+      top: -20px
       left: 0
       height: 20px
       width: 100%
@@ -682,7 +682,7 @@ ul {
     &:after {
       content ''
       position: absolute
-      top: -19px
+      top: -20px
       left: 0
       height: 20px
       width: 100%
@@ -736,6 +736,59 @@ ul {
         text-transform: none;
         white-space: nowrap;
         background: url(../img/timer.png) left center no-repeat;
+      }
+    }
+
+    &__img {
+      display: block
+    }
+
+    &-car {
+      &__title {
+        position: absolute;
+        top: 14px;
+        left: 17px;
+        font-size: 12px;
+        color: #fff;
+        text-transform: uppercase;
+      }
+      &__subtitle {
+        position: absolute;
+        top: 51px;
+        left: 15px;
+        font-size: 16px;
+        color: #fff;
+        text-transform: uppercase;
+      }
+      &__sum {
+        position: absolute;
+        top: 70px;
+        left: 17px;
+        font-size: 20px;
+        color: #fff;
+        font-weight: 700;
+        letter-spacing: 1px;
+      }
+      &__txt {
+        position: absolute;
+        font-size: 10px;
+        color: #fff;
+        text-transform: uppercase;
+
+        &_kia {
+          bottom: 38px;
+          right: 10px;
+        }
+
+        &_vw {
+          bottom: 23px;
+          right: 43px;
+        }
+
+        &_mersedes {
+          bottom: 8px;
+          right: 116px;
+        }
       }
     }
   }
@@ -2093,6 +2146,10 @@ ul {
       &__img {
         height: 225px
       }
+
+      &__girl {
+        display: none
+      }
     }
 
     &-about {
@@ -2149,6 +2206,64 @@ ul {
 
       &__img {
         width: 100%
+      }
+
+      &__txt {
+        top: 8px;
+        left: 43px;
+        font-size: 6px;
+      }
+
+      &__title {
+        margin: 4px 0;
+      }
+
+      &__timer {
+        top: 8px;
+        left: 123px;
+        font-size: 6px;
+
+        &-count {
+          top: 0px;
+          left: 4px;
+          font-size: 9px;
+          padding: 20px 0 20px 20px;
+          background-size: 15px;
+        }
+      }
+
+      &-car {
+        &__title {
+          top: 8px;
+          left: 8px;
+          font-size: 7px;
+        }
+        &__subtitle {
+          top: 29px;
+          left: 9px;
+          font-size: 9px;
+        }
+        &__sum {
+          top: 41px;
+          left: 8px;
+          font-size: 11px;
+        }
+        &__txt {
+          font-size: 6px;
+
+          &_kia {
+            bottom: 22px;
+            right: 5px;
+          }
+          &_vw {
+            bottom: 14px;
+            right: 24px;
+          }
+          &_mersedes {
+            bottom: 5px;
+            right: 63px;
+          }
+        }
       }
     }
 

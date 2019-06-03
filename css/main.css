@@ -526,7 +526,7 @@ ul {
 .zoomha-about:after {
   content: '';
   position: absolute;
-  top: -19px;
+  top: -20px;
   left: 0;
   height: 20px;
   width: 100%;
@@ -561,7 +561,7 @@ ul {
 .zoomha-popular:after {
   content: '';
   position: absolute;
-  top: -19px;
+  top: -20px;
   left: 0;
   height: 20px;
   width: 100%;
@@ -609,6 +609,52 @@ ul {
   text-transform: none;
   white-space: nowrap;
   background: url("../img/timer.png") left center no-repeat;
+}
+.zoomha-banners__img {
+  display: block;
+}
+.zoomha-banners-car__title {
+  position: absolute;
+  top: 14px;
+  left: 17px;
+  font-size: 12px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.zoomha-banners-car__subtitle {
+  position: absolute;
+  top: 51px;
+  left: 15px;
+  font-size: 16px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.zoomha-banners-car__sum {
+  position: absolute;
+  top: 70px;
+  left: 17px;
+  font-size: 20px;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.zoomha-banners-car__txt {
+  position: absolute;
+  font-size: 10px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.zoomha-banners-car__txt_kia {
+  bottom: 38px;
+  right: 10px;
+}
+.zoomha-banners-car__txt_vw {
+  bottom: 23px;
+  right: 43px;
+}
+.zoomha-banners-car__txt_mersedes {
+  bottom: 8px;
+  right: 116px;
 }
 .zoomha-leftcol {
   flex-basis: 20%;
@@ -1743,6 +1789,9 @@ ul {
   .zoomha-mainbanner__img {
     height: 225px;
   }
+  .zoomha-mainbanner__girl {
+    display: none;
+  }
   .zoomha-about {
     display: block;
     padding: 42px 17px;
@@ -1784,6 +1833,56 @@ ul {
   }
   .zoomha-banners__img {
     width: 100%;
+  }
+  .zoomha-banners__txt {
+    top: 8px;
+    left: 43px;
+    font-size: 6px;
+  }
+  .zoomha-banners__title {
+    margin: 4px 0;
+  }
+  .zoomha-banners__timer {
+    top: 8px;
+    left: 123px;
+    font-size: 6px;
+  }
+  .zoomha-banners__timer-count {
+    top: 0px;
+    left: 4px;
+    font-size: 9px;
+    padding: 20px 0 20px 20px;
+    background-size: 15px;
+  }
+  .zoomha-banners-car__title {
+    top: 8px;
+    left: 8px;
+    font-size: 7px;
+  }
+  .zoomha-banners-car__subtitle {
+    top: 29px;
+    left: 9px;
+    font-size: 9px;
+  }
+  .zoomha-banners-car__sum {
+    top: 41px;
+    left: 8px;
+    font-size: 11px;
+  }
+  .zoomha-banners-car__txt {
+    font-size: 6px;
+  }
+  .zoomha-banners-car__txt_kia {
+    bottom: 22px;
+    right: 5px;
+  }
+  .zoomha-banners-car__txt_vw {
+    bottom: 14px;
+    right: 24px;
+  }
+  .zoomha-banners-car__txt_mersedes {
+    bottom: 5px;
+    right: 63px;
   }
   .zoomha-email {
     margin: 10px 0 20px 0;
